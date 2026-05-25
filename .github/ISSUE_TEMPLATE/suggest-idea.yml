@@ -1,0 +1,50 @@
+name: Suggest an AI Idea
+description: Propose a new AI idea for the venture playbook
+title: "[IDEA] "
+labels: ["needs-review"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Idea title
+      placeholder: "AI-powered ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+
+  - type: input
+    id: target_users
+    attributes:
+      label: Target users
+    validations:
+      required: true
+
+  - type: textarea
+    id: pain_points
+    attributes:
+      label: Pain points
+    validations:
+      required: true
+
+  - type: input
+    id: validation_step
+    attributes:
+      label: First validation step
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Quality checklist
+      options:
+        - label: No guaranteed income or passive income language
+          required: true
+        - label: Specific target user identified
+          required: true

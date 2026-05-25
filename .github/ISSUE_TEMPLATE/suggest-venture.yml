@@ -1,0 +1,67 @@
+name: Suggest a Venture
+description: Propose a documented AI venture for the playbook
+title: "[VENTURE] "
+labels: ["needs-review"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Venture name
+      placeholder: "e.g. ContractAI — AI contract review for freelancers"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL (if public)
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What does it do?
+      description: One paragraph description
+    validations:
+      required: true
+
+  - type: input
+    id: target_users
+    attributes:
+      label: Target users
+    validations:
+      required: true
+
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Stage reached
+      options:
+        - idea
+        - prototype
+        - beta
+        - launched
+        - revenue
+        - shut_down
+        - acquired
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcomes
+    attributes:
+      label: Outcomes and lessons
+      description: What happened? What worked? What didn't? Be honest.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: This venture does not use misleading income claims
+          required: true
+        - label: The outcome data is honest (including failures)
+          required: true

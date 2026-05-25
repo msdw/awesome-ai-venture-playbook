@@ -1,0 +1,40 @@
+name: Suggest a Resource
+description: Propose a tool, playbook, or resource for AI venture builders
+title: "[RESOURCE] "
+labels: ["needs-review"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Why is this useful for AI venture builders?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource type
+      options:
+        - tool
+        - framework
+        - playbook
+        - community
+        - dataset
+        - tutorial
+        - other
+    validations:
+      required: true
