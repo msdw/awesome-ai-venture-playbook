@@ -1,0 +1,227 @@
+# Curated AI ideas — venture-focused
+ideas:
+  - id: ai_sales_call_coach
+    title: AI sales call coaching tool
+    summary: >
+      Real-time or post-call AI coach that analyzes sales calls, identifies
+      objection handling gaps, scores call quality, and provides specific
+      improvement suggestions.
+    category: ai_saas
+    target_users:
+      - sales
+      - startup_founder
+    target_buyers:
+      - Sales managers
+      - B2B SaaS companies
+    industries:
+      - marketing
+    pain_points:
+      - Sales managers cannot listen to all calls
+      - Reps repeat the same mistakes without feedback
+      - Coaching takes hours of manager time
+    ai_solution:
+      - Transcribe and analyze call recordings
+      - Score objection handling, talk time ratio, question quality
+      - Generate specific, actionable coaching feedback
+    ai_patterns:
+      - nlp_processing
+      - classification
+      - summarization
+    possible_business_models:
+      - subscription_saas
+      - usage_based_api
+    difficulty: medium
+    time_to_mvp: "4-8 weeks"
+    risk_level: medium
+    scoring:
+      pain_intensity: 8
+      willingness_to_pay: 8
+      ai_fit: 9
+      buildability: 7
+    tags:
+      - sales_automation
+      - b2b
+    source: community
+    status: accepted
+
+  - id: ai_proposal_generator_consultants
+    title: AI proposal generator for consultants
+    summary: >
+      Generates professional consulting proposals from a brief description of
+      the project scope, client industry, and desired outcomes.
+    category: ai_saas
+    target_users:
+      - consultant
+      - indie_builder
+    target_buyers:
+      - Independent consultants
+      - Small consulting firms
+    industries:
+      - marketing
+      - operations
+    pain_points:
+      - Writing proposals takes 2-4 hours per opportunity
+      - Proposal quality varies and is hard to improve consistently
+    ai_solution:
+      - Accept project brief as input
+      - Generate structured proposal with executive summary, scope, timeline, pricing tiers, terms
+    ai_patterns:
+      - generation
+      - rag_assistant
+    possible_business_models:
+      - subscription_saas
+      - freemium
+    difficulty: low
+    time_to_mvp: "2-3 weeks"
+    risk_level: low
+    scoring:
+      pain_intensity: 7
+      willingness_to_pay: 7
+      ai_fit: 8
+      buildability: 9
+    tags:
+      - b2b
+      - automation
+      - content_creation
+    source: community
+    status: accepted
+
+  - id: ai_customer_feedback_synthesizer
+    title: AI customer feedback synthesizer
+    summary: >
+      Aggregates and synthesizes customer feedback from multiple sources (support tickets,
+      reviews, surveys, NPS responses) into structured insights, themes, and priority signals.
+    category: ai_data
+    target_users:
+      - product_manager
+      - startup_founder
+    target_buyers:
+      - Product teams
+      - Customer success teams
+    industries:
+      - software_dev
+      - ecommerce
+    pain_points:
+      - Product teams are overwhelmed by unstructured feedback
+      - Key signals get buried in ticket volumes
+      - Synthesizing feedback manually takes days
+    ai_solution:
+      - Ingest feedback from Zendesk, Intercom, App Store, Trustpilot
+      - Cluster into themes and pain categories
+      - Score sentiment and frequency
+      - Surface top 5 actionable signals per week
+    ai_patterns:
+      - nlp_processing
+      - classification
+      - summarization
+    possible_business_models:
+      - subscription_saas
+      - usage_based_api
+    difficulty: medium
+    time_to_mvp: "4-6 weeks"
+    risk_level: low
+    scoring:
+      pain_intensity: 9
+      willingness_to_pay: 8
+      ai_fit: 9
+      buildability: 7
+    tags:
+      - data_analysis
+      - b2b
+      - automation
+    source: community
+    status: accepted
+
+  - id: ai_knowledge_base_builder
+    title: AI knowledge base builder from existing docs
+    summary: >
+      Transforms a company's existing documentation (PDFs, Notion, Confluence, Docs)
+      into a searchable, conversational knowledge base that answers employee or customer questions.
+    category: ai_saas
+    target_users:
+      - operations
+      - developer
+    target_buyers:
+      - SMBs with growing teams
+      - Customer support teams
+      - HR departments
+    industries:
+      - software_dev
+      - operations
+      - customer_service
+    pain_points:
+      - Employees repeat questions that are already documented
+      - Finding the right document takes too long
+      - Onboarding new hires is slow and inconsistent
+    ai_solution:
+      - Ingest documents via upload or connector
+      - Build vector index for semantic search
+      - Provide chat interface with cited answers
+    ai_patterns:
+      - rag_assistant
+      - semantic_search
+    possible_business_models:
+      - subscription_saas
+      - project_fee
+    difficulty: low
+    time_to_mvp: "2-4 weeks"
+    risk_level: low
+    scoring:
+      pain_intensity: 7
+      willingness_to_pay: 7
+      ai_fit: 9
+      buildability: 8
+    tags:
+      - b2b
+      - automation
+      - search
+    source: community
+    status: accepted
+
+  - id: ai_competitor_monitoring_agent
+    title: AI competitor monitoring agent
+    summary: >
+      An autonomous agent that monitors competitor websites, pricing pages, product updates,
+      and press releases, then sends weekly digest summaries to product and marketing teams.
+    category: ai_agents
+    target_users:
+      - marketer
+      - product_manager
+      - startup_founder
+    target_buyers:
+      - Marketing teams
+      - Product teams
+      - Competitive intelligence analysts
+    industries:
+      - marketing
+      - software_dev
+    pain_points:
+      - Tracking 5-10 competitors manually is time-consuming
+      - Important competitor changes get missed
+      - No systematic way to capture competitive intelligence
+    ai_solution:
+      - Monitor competitor URLs on schedule
+      - Detect content changes (pricing, features, messaging)
+      - Extract key updates and summarize
+      - Send weekly digest via email or Slack
+    ai_patterns:
+      - ai_agent
+      - extraction
+      - summarization
+    possible_business_models:
+      - subscription_saas
+      - freemium
+    difficulty: medium
+    time_to_mvp: "3-5 weeks"
+    risk_level: low
+    scoring:
+      pain_intensity: 7
+      willingness_to_pay: 7
+      ai_fit: 8
+      buildability: 7
+    tags:
+      - automation
+      - b2b
+      - data_analysis
+    source: community
+    status: accepted

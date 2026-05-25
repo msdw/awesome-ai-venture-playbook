@@ -1,0 +1,28 @@
+sources:
+  github_trending:
+    type: github
+    description: GitHub trending AI repos
+    url: https://github.com/trending?l=python&since=weekly
+    frequency: weekly
+
+  producthunt_ai:
+    type: producthunt
+    description: Product Hunt AI launches
+    url: https://www.producthunt.com/topics/artificial-intelligence
+    frequency: weekly
+
+  hacker_news:
+    type: hn
+    description: HN Show HN posts
+    frequency: weekly
+
+  indie_hackers:
+    type: web
+    description: Indie Hackers products and interviews
+    url: https://www.indiehackers.com
+    frequency: weekly
+
+  reddit_entrepreneur:
+    type: reddit
+    subreddit: entrepreneur
+    frequency: weekly

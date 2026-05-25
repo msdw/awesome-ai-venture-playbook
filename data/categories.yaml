@@ -1,0 +1,21 @@
+categories:
+  - id: ai_saas
+    label: AI SaaS
+  - id: ai_agents
+    label: AI Agents
+  - id: ai_automation
+    label: AI Automation
+  - id: ai_services
+    label: AI Consulting & Services
+  - id: ai_tools
+    label: AI Developer Tools
+  - id: ai_vertical
+    label: AI Vertical Solutions
+  - id: ai_content
+    label: AI Content & Media
+  - id: ai_data
+    label: AI Data Products
+  - id: ai_education
+    label: AI Education
+  - id: ai_infrastructure
+    label: AI Infrastructure

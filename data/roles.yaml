@@ -1,0 +1,19 @@
+roles:
+  - id: indie_builder
+    label: Indie Builder / Solopreneur
+  - id: freelancer
+    label: Freelancer
+  - id: consultant
+    label: Consultant
+  - id: startup_founder
+    label: Startup Founder
+  - id: product_manager
+    label: Product Manager
+  - id: developer
+    label: Developer / Engineer
+  - id: data_scientist
+    label: Data Scientist
+  - id: marketer
+    label: Marketer
+  - id: student
+    label: Student / Learner

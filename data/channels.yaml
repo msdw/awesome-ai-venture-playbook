@@ -1,0 +1,51 @@
+# Distribution channels for AI ventures
+channels:
+  - id: product_hunt
+    label: Product Hunt
+    type: launch_platform
+    description: Product discovery platform for launches
+
+  - id: hacker_news
+    label: Hacker News Show HN
+    type: community
+    description: Technical community for launch announcements
+
+  - id: linkedin
+    label: LinkedIn
+    type: social
+    description: B2B network for professional outreach
+
+  - id: reddit
+    label: Reddit
+    type: community
+    description: Niche communities for target users
+
+  - id: cold_email
+    label: Cold Email / Outreach
+    type: outbound
+    description: Direct outreach to potential buyers
+
+  - id: content_marketing
+    label: Content Marketing / SEO
+    type: inbound
+    description: Blog posts, tutorials, and SEO
+
+  - id: youtube
+    label: YouTube
+    type: social
+    description: Video content and tutorials
+
+  - id: app_marketplace
+    label: App Marketplace
+    type: distribution
+    description: Listing in Slack, HubSpot, Notion, etc. marketplaces
+
+  - id: agency_partnerships
+    label: Agency Partnerships
+    type: partnership
+    description: Reseller or referral agreements with agencies
+
+  - id: freelance_platforms
+    label: Freelance Platforms
+    type: marketplace
+    description: Upwork, Toptal, etc. for services

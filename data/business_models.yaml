@@ -1,0 +1,23 @@
+business_models:
+  - id: subscription_saas
+    label: Subscription SaaS
+  - id: usage_based_api
+    label: Usage-based API
+  - id: freemium
+    label: Freemium
+  - id: consulting_retainer
+    label: Consulting Retainer
+  - id: project_fee
+    label: Project Fee
+  - id: productized_service
+    label: Productized Service
+  - id: done_for_you
+    label: Done-for-You (DFY)
+  - id: training_workshop
+    label: Training & Workshop
+  - id: marketplace_listing
+    label: Marketplace Listing
+  - id: licensing
+    label: Licensing
+  - id: revenue_share
+    label: Revenue Share

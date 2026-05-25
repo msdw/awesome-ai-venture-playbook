@@ -1,0 +1,91 @@
+# Documented AI ventures — for educational reference
+# Sources: public information, founder interviews, public data only
+
+ventures:
+  - id: ai_writing_assistant_b2b
+    name: AI Writing Assistant for B2B Teams
+    description: >
+      A writing assistant that helps B2B marketing teams draft blog posts, emails,
+      and social content aligned with brand voice and messaging guidelines.
+    category: ai_saas
+    target_users:
+      - marketer
+    stage: launched
+    business_model: subscription_saas
+    industries:
+      - marketing
+    founding_approach:
+      - Started with a niche audience (SaaS marketing teams)
+      - Validated via 10 customer interviews before building
+      - Built a simple Streamlit prototype in week 1
+    what_worked:
+      - Deep niche focus allowed for faster product-market fit signals
+      - Charging from day 1 filtered serious customers from tire kickers
+      - Simple onboarding with immediate value delivery
+    what_didnt:
+      - Generic writing features were table stakes — needed strong differentiation
+      - Churn was high without brand voice personalization
+    outcome: Reached $2k MRR in 4 months with 20 paying customers
+    lessons:
+      - Niche specificity matters more than feature breadth in early stage
+      - Brand voice and style customization was the key retention driver
+    scoring:
+      pain_intensity: 7
+      willingness_to_pay: 7
+      ai_fit: 8
+      buildability: 8
+      market_signal: 7
+      differentiation_potential: 5
+      monetization_potential: 7
+      compliance_risk: 2
+    tags:
+      - content_creation
+      - b2b
+      - marketing_ai
+    source: public
+    status: accepted
+
+  - id: ai_data_extraction_service
+    name: AI Data Extraction Service for Research Teams
+    description: >
+      A productized service that extracts structured data from research reports,
+      PDFs, and web pages for market research firms and investment teams.
+    category: ai_services
+    target_users:
+      - researcher
+      - consultant
+    stage: revenue
+    business_model: project_fee
+    industries:
+      - finance
+      - research
+    founding_approach:
+      - Identified pain via cold outreach to market research firms
+      - First client was a financial data firm paying $2k/project
+      - Manual delivery first, automated second
+    what_worked:
+      - High-value use case with clear ROI for buyers
+      - Starting with project fees allowed revenue before building automation
+      - Small team could deliver quality manually before scaling
+    what_didnt:
+      - Project-based revenue was lumpy and hard to forecast
+      - Needed to transition to retainer model for stability
+    outcome: $15k in first 3 months via 8 project clients
+    lessons:
+      - Start with manual delivery in high-value niches
+      - Transition to retainer model once you have 3+ repeat clients
+    scoring:
+      pain_intensity: 9
+      willingness_to_pay: 9
+      ai_fit: 9
+      buildability: 7
+      market_signal: 8
+      differentiation_potential: 7
+      monetization_potential: 9
+      compliance_risk: 4
+    tags:
+      - document_processing
+      - data_analysis
+      - b2b
+    source: public
+    status: accepted

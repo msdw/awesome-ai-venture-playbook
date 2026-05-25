@@ -1,0 +1,34 @@
+industries:
+  - id: legal
+    regulated: true
+    label: Legal
+  - id: healthcare
+    regulated: true
+    label: Healthcare
+  - id: finance
+    regulated: true
+    label: Finance
+  - id: hr_recruiting
+    regulated: false
+    label: HR & Recruiting
+  - id: marketing
+    regulated: false
+    label: Marketing & Sales
+  - id: ecommerce
+    regulated: false
+    label: E-commerce
+  - id: education
+    regulated: false
+    label: Education
+  - id: software_dev
+    regulated: false
+    label: Software Development
+  - id: media_content
+    regulated: false
+    label: Media & Content
+  - id: operations
+    regulated: false
+    label: Operations
+  - id: customer_service
+    regulated: false
+    label: Customer Service
