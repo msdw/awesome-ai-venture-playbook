@@ -1,28 +1,106 @@
+# Sources used for automated venture & startup discovery
+# Fields:
+#   type: github | hn | reddit | producthunt | web | newsletter
+#   status: active | candidate | paused
+#   search_query: used directly in GitHub/HN API calls
+#   url: for web type sources
+#   frequency: daily | weekly
+#   added_at: ISO date
 sources:
-  github_trending:
+  github_ai_ventures:
     type: github
-    description: GitHub trending AI repos
-    url: https://github.com/trending?l=python&since=weekly
+    description: GitHub repos — AI venture tools and startup frameworks
+    search_query: "ai saas OR llm tool OR ai startup language:python"
+    frequency: daily
+    status: active
+    added_at: "2026-05-01"
+
+  github_startup_boilerplates:
+    type: github
+    description: Startup boilerplates and MVP starters
+    search_query: "saas boilerplate OR startup template OR mvp starter ai"
     frequency: weekly
+    status: active
+    added_at: "2026-05-26"
+
+  github_awesome_startups:
+    type: github
+    description: Awesome startup resources lists
+    search_query: "awesome startup OR awesome saas OR awesome venture"
+    frequency: weekly
+    status: active
+    added_at: "2026-05-26"
+
+  hn_show_startup:
+    type: hn
+    description: Hacker News Show HN — startup and SaaS launches
+    search_query: "Show HN SaaS"
+    frequency: daily
+    status: active
+    added_at: "2026-05-01"
+
+  hn_show_ai_tool:
+    type: hn
+    description: Hacker News Show HN — AI tools for builders
+    search_query: "Show HN AI tool"
+    frequency: daily
+    status: active
+    added_at: "2026-05-01"
+
+  hn_ask_startup:
+    type: hn
+    description: HN Ask HN — startup advice and resources
+    search_query: "Ask HN startup resources AI"
+    frequency: weekly
+    status: active
+    added_at: "2026-05-26"
+
+  reddit_entrepreneur:
+    type: reddit
+    description: r/entrepreneur — AI ventures and startup ideas
+    subreddit: entrepreneur
+    url: "https://www.reddit.com/r/entrepreneur/search/?q=AI+startup&sort=new"
+    frequency: weekly
+    status: active
+    added_at: "2026-05-01"
+
+  reddit_startups:
+    type: reddit
+    description: r/startups posts about AI ventures
+    subreddit: startups
+    url: "https://www.reddit.com/r/startups/search/?q=AI&sort=new"
+    frequency: weekly
+    status: active
+    added_at: "2026-05-26"
 
   producthunt_ai:
     type: producthunt
     description: Product Hunt AI launches
-    url: https://www.producthunt.com/topics/artificial-intelligence
+    url: "https://www.producthunt.com/topics/artificial-intelligence"
     frequency: weekly
-
-  hacker_news:
-    type: hn
-    description: HN Show HN posts
-    frequency: weekly
+    status: active
+    added_at: "2026-05-01"
 
   indie_hackers:
     type: web
-    description: Indie Hackers products and interviews
-    url: https://www.indiehackers.com
+    description: Indie Hackers revenue stories for AI products
+    url: "https://www.indiehackers.com/products?sorting=newest"
     frequency: weekly
+    status: active
+    added_at: "2026-05-01"
 
-  reddit_entrepreneur:
-    type: reddit
-    subreddit: entrepreneur
+  ycombinator_startups:
+    type: web
+    description: YC company launches and AI startups
+    url: "https://www.ycombinator.com/companies?industry=Artificial+Intelligence"
     frequency: weekly
+    status: active
+    added_at: "2026-05-26"
+
+  crunchbase_ai:
+    type: web
+    description: Crunchbase recent AI startup funding news
+    url: "https://news.crunchbase.com/ai/"
+    frequency: weekly
+    status: active
+    added_at: "2026-05-26"

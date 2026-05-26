@@ -26,35 +26,73 @@ def fetch_json(url):
         return None
 
 
+def load_active_sources() -> dict:
+    """Load active sources from data/sources.yaml."""
+    try:
+        import yaml
+        sources_path = DATA / "sources.yaml"
+        if not sources_path.exists():
+            return {"github": [], "hn": []}
+        with open(sources_path, encoding="utf-8") as f:
+            data = yaml.safe_load(f) or {}
+        github_queries, hn_queries = [], []
+        for src in data.get("sources", {}).values():
+            if src.get("status", "active") != "active":
+                continue
+            if src.get("type") == "github" and "search_query" in src:
+                github_queries.append(src["search_query"])
+            elif src.get("type") == "hn" and "search_query" in src:
+                hn_queries.append(src["search_query"])
+        return {"github": github_queries, "hn": hn_queries}
+    except Exception as e:
+        print(f"  Warning: could not load sources.yaml: {e}", file=sys.stderr)
+        return {"github": [], "hn": []}
+
+
 def discover_from_github(mode):
     print("\n[GitHub] Searching AI venture repos...")
     candidates = []
     days = 7 if mode == "weekly" else 1
     since = (datetime.datetime.utcnow() - datetime.timedelta(days=days)).strftime("%Y-%m-%d")
-    url = f"{GITHUB_API}/search/repositories?q=ai+saas+OR+llm+tool+language:python+created:>{since}&sort=stars&per_page=15"
-    data = fetch_json(url)
-    if not data:
-        return candidates
-    for repo in data.get("items", []):
-        stars = repo.get("stargazers_count", 0)
-        if stars < 30:
+
+    active = load_active_sources()
+    queries = active["github"] if active["github"] else ["ai saas OR llm tool language:python"]
+    queries = list(dict.fromkeys(queries))
+
+    seen_repos: set = set()
+    for query in queries:
+        url = f"{GITHUB_API}/search/repositories?q={query.replace(' ', '+')}+created:>{since}&sort=stars&per_page=12"
+        data = fetch_json(url)
+        if not data:
+            time.sleep(1)
             continue
-        candidates.append({
-            "id": f"candidate_{repo['full_name'].replace('/', '_').lower()}",
-            "title": repo.get("name", ""),
-            "summary": repo.get("description") or "No description",
-            "category": "ai_saas",
-            "target_users": ["developer"],
-            "pain_points": ["See repository"],
-            "difficulty": "medium",
-            "risk_level": "medium",
-            "tags": repo.get("topics", [])[:5] or ["automation"],
-            "source": repo.get("html_url", ""),
-            "status": "candidate",
-            "_meta": {"stars": stars, "source": "github", "discovered_at": datetime.datetime.utcnow().isoformat()}
-        })
-        print(f"  {repo['full_name']} ({stars} stars)")
-        time.sleep(0.2)
+        for repo in data.get("items", []):
+            name = repo.get("full_name", "")
+            if name in seen_repos:
+                continue
+            stars = repo.get("stargazers_count", 0)
+            if stars < 30:
+                continue
+            candidates.append({
+                "id": f"candidate_{name.replace('/', '_').lower()}",
+                "title": repo.get("name", ""),
+                "summary": repo.get("description") or "No description",
+                "category": "ai_saas",
+                "target_users": ["developer"],
+                "pain_points": ["See repository"],
+                "difficulty": "medium",
+                "risk_level": "medium",
+                "tags": repo.get("topics", [])[:5] or ["automation"],
+                "source": repo.get("html_url", ""),
+                "status": "candidate",
+                "_meta": {
+                    "stars": stars, "source": "github", "query": query,
+                    "discovered_at": datetime.datetime.utcnow().isoformat()
+                }
+            })
+            seen_repos.add(name)
+            print(f"  {name} ({stars} stars)")
+        time.sleep(0.3)
     return candidates
 
 

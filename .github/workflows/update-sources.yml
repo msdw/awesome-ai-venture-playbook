@@ -1,0 +1,47 @@
+name: Weekly Sources Update
+
+on:
+  schedule:
+    - cron: "0 6 * * 0"
+  workflow_dispatch:
+
+jobs:
+  update-sources:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Discover new source candidates
+        run: python scripts/update_sources.py
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: weekly sources update"
+          branch: auto/weekly-sources-update
+          title: "[Auto] Weekly sources — new source candidates"
+          body: |
+            ## Automated sources update
+
+            New source candidates have been added to `data/sources.yaml` with `status: candidate`.
+
+            **What to do:**
+            1. Review each new entry in `data/sources.yaml`
+            2. Change `status: active` for sources that look valuable
+            3. Delete or set `status: paused` for irrelevant entries
+            4. Merge when satisfied
+
+            Active sources are used as GitHub and HN search queries by the daily
+            discovery workflow (`discover_new_entries.py`).
+          labels: automated, sources, needs-review
+          draft: false
