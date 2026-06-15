@@ -4,6 +4,7 @@
 Searches for new useful sources (GitHub awesome lists, HN resource threads,
 startup communities) and proposes them as candidates in sources.yaml.
 """
+import os
 import sys
 import json
 import argparse
@@ -23,6 +24,7 @@ DATA = ROOT / "data"
 SOURCES_FILE = DATA / "sources.yaml"
 
 GITHUB_API = "https://api.github.com"
+_GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
 HN_SEARCH_API = "https://hn.algolia.com/api/v1"
 
 GITHUB_SOURCE_QUERIES = [
@@ -42,6 +44,8 @@ HN_SOURCE_QUERIES = [
 
 def fetch_json(url: str) -> dict | list | None:
     headers = {"User-Agent": "awesome-ai-venture-playbook/1.0 source-updater"}
+    if _GITHUB_TOKEN:
+        headers["Authorization"] = f"token {_GITHUB_TOKEN}"
     try:
         req = Request(url, headers=headers)
         with urlopen(req, timeout=15) as resp:

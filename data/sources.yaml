@@ -1,106 +1,113 @@
-# Sources used for automated venture & startup discovery
-# Fields:
-#   type: github | hn | reddit | producthunt | web | newsletter
-#   status: active | candidate | paused
-#   search_query: used directly in GitHub/HN API calls
-#   url: for web type sources
-#   frequency: daily | weekly
-#   added_at: ISO date
+# Sources for automated AI venture discovery
+# discover_new_entries.py reads github/hn type sources with search_query.
+# Web/reddit sources are for manual review.
+#
+# Status: active | paused | candidate
+# Frequency: daily | weekly
+
 sources:
-  github_ai_ventures:
+
+  # ── GitHub API searches ───────────────────────────────────────────────────────
+
+  github_ai_saas_tools:
     type: github
-    description: GitHub repos — AI venture tools and startup frameworks
-    search_query: "ai saas OR llm tool OR ai startup language:python"
+    description: AI SaaS products and tools being built in Python/TS
+    search_query: "ai saas OR llm tool language:python stars:>30"
     frequency: daily
     status: active
     added_at: "2026-05-01"
 
-  github_startup_boilerplates:
+  github_ai_startup_kit:
     type: github
-    description: Startup boilerplates and MVP starters
-    search_query: "saas boilerplate OR startup template OR mvp starter ai"
+    description: AI startup boilerplates and venture starters
+    search_query: "ai startup kit OR llm starter OR saas boilerplate ai stars:>50"
     frequency: weekly
     status: active
     added_at: "2026-05-26"
 
-  github_awesome_startups:
+  github_mvp_ai:
     type: github
-    description: Awesome startup resources lists
-    search_query: "awesome startup OR awesome saas OR awesome venture"
+    description: MVP-stage AI products — small teams, fast execution
+    search_query: "ai mvp OR minimum viable product ai language:typescript stars:>20"
+    frequency: daily
+    status: active
+    added_at: "2026-06-01"
+
+  github_awesome_saas:
+    type: github
+    description: Awesome SaaS and startup resource lists
+    search_query: "awesome saas OR awesome startup tools OR awesome indie hacker"
     frequency: weekly
     status: active
     added_at: "2026-05-26"
 
-  hn_show_startup:
+  # ── Hacker News ───────────────────────────────────────────────────────────────
+
+  hn_show_saas:
     type: hn
-    description: Hacker News Show HN — startup and SaaS launches
+    description: Show HN — newly launched SaaS products
     search_query: "Show HN SaaS"
     frequency: daily
     status: active
     added_at: "2026-05-01"
+    notes: Most relevant signal — real products with first-week community feedback
 
-  hn_show_ai_tool:
+  hn_show_ai_product:
     type: hn
-    description: Hacker News Show HN — AI tools for builders
-    search_query: "Show HN AI tool"
+    description: Show HN — AI products and demos
+    search_query: "Show HN AI product"
     frequency: daily
     status: active
-    added_at: "2026-05-01"
+    added_at: "2026-06-01"
 
-  hn_ask_startup:
+  hn_ask_building:
     type: hn
-    description: HN Ask HN — startup advice and resources
-    search_query: "Ask HN startup resources AI"
+    description: Ask HN — what are you building with AI
+    search_query: "Ask HN what are you building"
     frequency: weekly
     status: active
     added_at: "2026-05-26"
 
-  reddit_entrepreneur:
-    type: reddit
-    description: r/entrepreneur — AI ventures and startup ideas
-    subreddit: entrepreneur
-    url: "https://www.reddit.com/r/entrepreneur/search/?q=AI+startup&sort=new"
+  hn_launch_week:
+    type: hn
+    description: HN threads about product launches and YC batches
+    search_query: "YC batch launch AI startup"
+    frequency: weekly
+    status: active
+    added_at: "2026-06-01"
+
+  # ── Web sources (manual review) ───────────────────────────────────────────────
+
+  indie_hackers_products:
+    type: web
+    description: Indie Hackers new products — revenue-first AI ventures
+    url: "https://www.indiehackers.com/products?sorting=newest"
     frequency: weekly
     status: active
     added_at: "2026-05-01"
+    notes: Best for revenue-validated AI micro-ventures
 
-  reddit_startups:
-    type: reddit
-    description: r/startups posts about AI ventures
-    subreddit: startups
-    url: "https://www.reddit.com/r/startups/search/?q=AI&sort=new"
+  ycombinator_companies:
+    type: web
+    description: YC AI companies — validated by top accelerator
+    url: "https://www.ycombinator.com/companies?industry=Artificial+Intelligence&batch=&status=&isHiring=&nonprofit=&query="
     frequency: weekly
     status: active
     added_at: "2026-05-26"
 
   producthunt_ai:
     type: producthunt
-    description: Product Hunt AI launches
-    url: "https://www.producthunt.com/topics/artificial-intelligence"
+    description: Product Hunt AI launches — newest products
+    url: "https://www.producthunt.com/topics/artificial-intelligence?order=newest"
     frequency: weekly
     status: active
     added_at: "2026-05-01"
 
-  indie_hackers:
+  crunchbase_ai_seed:
     type: web
-    description: Indie Hackers revenue stories for AI products
-    url: "https://www.indiehackers.com/products?sorting=newest"
+    description: Crunchbase early-stage AI funding signals
+    url: "https://news.crunchbase.com/ai-robotics/"
     frequency: weekly
-    status: active
-    added_at: "2026-05-01"
-
-  ycombinator_startups:
-    type: web
-    description: YC company launches and AI startups
-    url: "https://www.ycombinator.com/companies?industry=Artificial+Intelligence"
-    frequency: weekly
-    status: active
+    status: paused
     added_at: "2026-05-26"
-
-  crunchbase_ai:
-    type: web
-    description: Crunchbase recent AI startup funding news
-    url: "https://news.crunchbase.com/ai/"
-    frequency: weekly
-    status: active
-    added_at: "2026-05-26"
+    notes: Paused — funding news lags product reality; re-enable for market sizing
