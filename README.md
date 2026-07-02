@@ -16,7 +16,7 @@ Structured playbooks, curated ventures, and validated AI ideas for builders who 
 |:---:|:---:|:---:|:---:|
 | [Find your AI idea →](https://github.com/msdw/awesome-ai-idea-engine) | **You are here** | [Build your AI business →](https://github.com/msdw/awesome-ai-business-blueprint) | [Monetize your AI skills →](https://github.com/msdw/awesome-ai-monetization-playbook) |
 
-<p align="center"><a href="https://msdw.github.io/awesome-ai-hub/">🔗 See the full series & get weekly updates →</a></p>
+<p align="center"><a href="https://msdw.github.io/awesome-ai-hub/">🔗 See the full series & get weekly updates →</a> · <a href="WEEKLY.md">📅 This week's finds</a> · <a href="TOP10.md">🏆 Top 10</a></p>
 
 ---
 
