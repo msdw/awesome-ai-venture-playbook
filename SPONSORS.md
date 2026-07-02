@@ -1,35 +1,67 @@
-# Sponsor a Project of the Week
+# Sponsor the Awesome AI Builder Series
 
-## Reach AI builders and founders
+## Reach a targeted audience of AI founders and builders
 
-Each week, one AI project is featured in a dedicated "Project of the Week" section at the top of this repository's README.
+This repository is part of the **Awesome AI Builder Series** — 4 interconnected repos covering idea discovery, venture building, business methodology, and monetization. Our audience:
 
-Our audience consists of:
+- First-time AI founders going from idea to first customers
+- Indie hackers turning AI experiments into revenue-generating ventures
+- Product builders launching AI-powered products
+- Freelancers and consultants exploring AI venture opportunities
 
-- Indie builders and developers exploring AI ventures
-- Freelancers and consultants productizing AI services
-- Startup founders validating early-stage AI ideas
-- Product managers evaluating AI opportunities
+Updated weekly. Maintained by [Advanthink](mailto:mathurin.ache@advanthink.com).
 
-## What You Get
+---
 
-- Your project name, URL, and one-sentence description at the top of the README
-- Listed for the duration of your sponsorship slot
-- Transparent attribution as sponsored content
+## Sponsorship Tiers
+
+### Tier 1 — Tool Spotlight
+**Visibility:** Listed in the "Recommended Tools" section of this repo
+
+- Your tool name, URL, and one-line description in the tools table
+- Positioned alongside curated tools trusted by AI founders
+- Permanent listing for the duration of your sponsorship
+
+Best for: Founder tools, SaaS products, platforms targeting early-stage AI ventures.
+
+---
+
+### Tier 2 — Project of the Week
+**Visibility:** Featured section at the top of the README
+
+- Your project name, URL, and one-sentence pitch in the "Sponsored" section
+- Visible to every visitor who opens the repo
+- Labeled as sponsored content (transparent to readers)
+- Duration: monthly slot
+
+Best for: Products launching to AI founders, new tool releases, community offers.
+
+---
+
+### Tier 3 — Series Partner
+**Visibility:** Featured across all 4 repos in the Awesome AI Builder Series
+
+- Tool Spotlight listing in all 4 repos
+- Project of the Week slot in this repo
+- Mentioned in the automated weekly PR description (reaches watchers and contributors)
+- First option to renew before slots open publicly
+
+Best for: Platforms wanting sustained visibility with the entire AI builder audience.
+
+---
 
 ## Eligibility
 
-- The project must be AI-related and genuinely useful to AI builders and founders
-- No misleading income claims, spam, or deceptive content
-- We reserve the right to decline any request
+- The product or project must be AI-related and genuinely useful to this audience
+- No spam, misleading income claims, or deceptive products
+- No NSFW content
+- We reserve the right to decline any request without justification
+
+---
 
 ## How to Sponsor
 
-1. Open a [Sponsor Request issue](https://github.com/msdw/awesome-ai-venture-playbook/issues/new?template=sponsor-request.yml)
-2. We review within 48 hours
-3. If approved, you receive a payment link
-4. Your project appears in the README within 48 hours of confirmed payment
-
-## Contact
-
-Open a [Sponsor Request issue](https://github.com/msdw/awesome-ai-venture-playbook/issues/new?template=sponsor-request.yml).
+1. Email [mathurin.ache@advanthink.com](mailto:mathurin.ache@advanthink.com?subject=Sponsorship%20Request%20%E2%80%94%20Awesome%20AI%20Venture%20Playbook) with the subject "Sponsorship Request — Awesome AI Venture Playbook"
+2. Include: your product name, URL, target tier, and a one-sentence description
+3. We respond within 48 hours with availability and pricing
+4. Your listing goes live within 48 hours of confirmed payment

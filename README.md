@@ -10,9 +10,26 @@ Structured playbooks, curated ventures, and validated AI ideas for builders who 
 
 ---
 
+## Awesome AI Builder Series
+
+| 💡 Idea Engine | 🚀 Venture Playbook | 🏗 Business Blueprint | 💰 Monetization Playbook |
+|:---:|:---:|:---:|:---:|
+| [Find your AI idea →](https://github.com/msdw/awesome-ai-idea-engine) | **You are here** | [Build your AI business →](https://github.com/msdw/awesome-ai-business-blueprint) | [Monetize your AI skills →](https://github.com/msdw/awesome-ai-monetization-playbook) |
+
+---
+
 ## Sponsored — Project of the Week
 
 > *This slot is available. [Learn how to sponsor →](SPONSORS.md)*
+
+---
+
+## Who This Is For
+
+Built for:
+- **First-time AI founders** — who have an idea and need a structured path to first customers
+- **Indie hackers** — turning AI experiments into revenue-generating ventures
+- **Product builders** — going from side project to validated AI product
 
 ---
 
@@ -45,6 +62,22 @@ A practical, anti-hype playbook repository for AI venture building. It covers:
 
 ---
 
+## Recommended Tools
+
+Tools used and recommended by AI founders in this community:
+
+| Tool | What it's for |
+|---|---|
+| [Notion](https://www.notion.so) | Docs, planning, investor updates, and venture tracking |
+| [Linear](https://linear.app) | Task and sprint management for lean AI teams |
+| [Framer](https://www.framer.com) | No-code landing pages — validate demand before building |
+| [Lemon Squeezy](https://www.lemonsqueezy.com) | Sell digital products, SaaS, and memberships |
+| [Cal.com](https://cal.com) | Open-source booking — discovery calls and customer interviews |
+
+> Want your tool featured here? [See sponsorship options →](SPONSORS.md)
+
+---
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how to suggest an idea, venture, or resource.
@@ -56,6 +89,19 @@ The fastest way to contribute: [suggest a venture →](https://github.com/msdw/a
 ## Automated Updates
 
 Every Monday at 07:00 UTC, a GitHub Actions workflow discovers new AI venture candidates and opens a pull request for human review. Only validated entries get merged.
+
+---
+
+## Work With Me
+
+These resources are free. If you want hands-on support applying them to your specific situation:
+
+| | |
+|---|---|
+| **Discovery Call** | 30-min conversation to scope your venture — [book a call →](mailto:mathurin.ache@advanthink.com?subject=Discovery%20Call%20from%20Awesome%20AI%20Venture%20Playbook) |
+| **Coaching** | 1:1 guidance from idea to first paying customer — [get in touch →](mailto:mathurin.ache@advanthink.com?subject=Coaching%20from%20Awesome%20AI%20Venture%20Playbook) |
+| **Consulting** | Hands-on AI consulting for teams building ventures — [let's talk →](mailto:mathurin.ache@advanthink.com?subject=Consulting%20from%20Awesome%20AI%20Venture%20Playbook) |
+| **Training** | Bootcamps for builders launching AI ventures — [learn more →](mailto:mathurin.ache@advanthink.com?subject=Training%20from%20Awesome%20AI%20Venture%20Playbook) |
 
 ---
 
