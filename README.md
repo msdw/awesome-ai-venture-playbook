@@ -16,6 +16,8 @@ Structured playbooks, curated ventures, and validated AI ideas for builders who 
 |:---:|:---:|:---:|:---:|
 | [Find your AI idea →](https://github.com/msdw/awesome-ai-idea-engine) | **You are here** | [Build your AI business →](https://github.com/msdw/awesome-ai-business-blueprint) | [Monetize your AI skills →](https://github.com/msdw/awesome-ai-monetization-playbook) |
 
+<p align="center"><a href="https://msdw.github.io/awesome-ai-hub/">🔗 See the full series & get weekly updates →</a></p>
+
 ---
 
 ## Sponsored — Project of the Week
