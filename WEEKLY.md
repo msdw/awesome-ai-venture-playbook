@@ -1,4 +1,4 @@
-# This Week's Finds — 2026-07-02
+# This Week's Finds — 2026-08-22
 
 The latest venture candidates discovered by our automated weekly scan, ranked by score.
 Curated by hand — see [the full list](https://github.com/msdw/awesome-ai-venture-playbook).

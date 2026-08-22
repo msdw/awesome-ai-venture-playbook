@@ -1,0 +1,72 @@
+<!-- AUTO-GENERATED — do not edit manually. Run: python scripts/generate_markdown.py -->
+
+# AI Ideas
+
+- [AI sales call coaching tool](../data/ideas.yaml) — Real-time or post-call AI coach that analyzes sales calls, identifies objection handling gaps, score
+- [AI proposal generator for consultants](../data/ideas.yaml) — Generates professional consulting proposals from a brief description of the project scope, client in
+- [AI customer feedback synthesizer](../data/ideas.yaml) — Aggregates and synthesizes customer feedback from multiple sources (support tickets, reviews, survey
+- [AI knowledge base builder from existing docs](../data/ideas.yaml) — Transforms a company's existing documentation (PDFs, Notion, Confluence, Docs) into a searchable, co
+- [AI competitor monitoring agent](../data/ideas.yaml) — An autonomous agent that monitors competitor websites, pricing pages, product updates, and press rel
+- [AI RFP response assistant](../data/ideas.yaml) — Helps B2B sales and pre-sales teams answer RFPs faster by retrieving relevant past answers, product
+- [AI customer support agent for SMBs](../data/ideas.yaml) — A deployable AI support agent that handles common customer questions for small and medium businesses
+- [AI invoice classification workflow](../data/ideas.yaml) — Automatically classifies incoming invoices by vendor, category, cost center, and payment priority to
+- [AI meeting-to-tasks assistant](../data/ideas.yaml) — Converts meeting recordings or transcripts into structured action items, owners, deadlines, and foll
+- [AI CRM enrichment workflow](../data/ideas.yaml) — Automatically enriches CRM contact and company records with publicly available data, reducing manual
+- [AI local SEO assistant for small businesses](../data/ideas.yaml) — Helps local businesses improve their Google Business Profile, generate location-specific content, an
+- [AI product review analyzer](../data/ideas.yaml) — Analyzes product reviews from e-commerce platforms to extract recurring themes, feature requests, qu
+- [AI sales research agent](../data/ideas.yaml) — Automates pre-call research by compiling company news, executive changes, recent funding, and Linked
+- [AI data quality monitoring agent](../data/ideas.yaml) — Continuously monitors database tables or data pipelines for anomalies, schema drift, missing values,
+- [AI contract comparison assistant](../data/ideas.yaml) — Compares two versions of a contract to highlight material differences, flag unusual clauses, and sum
+- [AI internal knowledge base assistant](../data/ideas.yaml) — An AI assistant that answers employee questions by searching internal wikis, HR policies, SOPs, and
+- [AI weekly reporting generator](../data/ideas.yaml) — Automatically generates structured weekly status reports from project management tools, CRM data, an
+- [AI podcast clipping workflow](../data/ideas.yaml) — Automatically transcribes podcasts and identifies the most shareable clips, quotes, and chapter summ
+- [AI course content generator](../data/ideas.yaml) — Generates structured online course outlines, lesson scripts, quiz questions, and learning objectives
+- [AI developer documentation assistant](../data/ideas.yaml) — Automatically generates, maintains, and improves developer documentation from source code, API defin
+- [AI SQL copilot for analysts](../data/ideas.yaml) — Translates natural language questions into SQL queries against connected databases, allowing busines
+- [AI insurance claim summarization assistant](../data/ideas.yaml) — Automatically summarizes incoming insurance claims, extracts key facts, flags anomalies, and routes
+- [AI legal intake assistant](../data/ideas.yaml) — Helps law firms and legal departments intake new client matters by collecting structured information
+- [AI fraud investigation copilot](../data/ideas.yaml) — Assists fraud investigators by summarizing case files, linking related transactions, surfacing behav
+- [AI open-source RAG starter kit](../data/ideas.yaml) — A productized open-source template that allows developers to deploy a RAG system with document inges
+- [AI grant application assistant](../data/ideas.yaml) — Helps nonprofits, researchers, and startups draft grant applications by extracting relevant informat
+- [AI real estate listing generator](../data/ideas.yaml) — Generates compelling property listings from structured data, photos metadata, and agent notes, reduc
+- [AI restaurant review response assistant](../data/ideas.yaml) — Helps restaurant owners respond to Google and Yelp reviews with professional, personalized responses
+- [AI recruiting screening assistant](../data/ideas.yaml) — Pre-screens job applicants by analyzing resumes against job criteria and generating structured evalu
+- [AI onboarding assistant for SaaS products](../data/ideas.yaml) — Personalizes user onboarding in SaaS products by adapting guidance, tips, and next-step suggestions
+- [AI spreadsheet cleaning assistant](../data/ideas.yaml) — Analyzes messy spreadsheets to detect formatting inconsistencies, duplicate rows, empty fields, and
+- [AI executive dashboard narrator](../data/ideas.yaml) — Transforms business dashboard data into a concise weekly narrative summary for executives, highlight
+- [AI procurement analysis assistant](../data/ideas.yaml) — Analyzes supplier quotes, purchase orders, and contract terms to surface pricing anomalies, identify
+- [AI social media repurposing workflow](../data/ideas.yaml) — Transforms long-form content such as blog posts, webinars, and reports into tailored social media po
+- [AI documentation migration assistant](../data/ideas.yaml) — Helps engineering teams migrate legacy documentation from outdated formats or wikis into modern plat
+- [AI compliance evidence collector](../data/ideas.yaml) — Helps compliance and security teams collect, organize, and summarize evidence for audits such as ISO
+- [AI bug report triage assistant](../data/ideas.yaml) — Automatically classifies, deduplicates, prioritizes, and assigns incoming bug reports to reduce engi
+- [AI e-commerce product description optimizer](../data/ideas.yaml) — Generates and optimizes product descriptions for e-commerce listings to improve conversion rates and
+- [AI knowledge base gap detector](../data/ideas.yaml) — Analyzes customer support conversations and FAQs to identify questions that are not answered in the
+- [AI localization workflow for software teams](../data/ideas.yaml) — Automates the localization of software UI strings, error messages, and documentation while preservin
+- [AI internal policy assistant](../data/ideas.yaml) — Answers employee questions about HR policies, expense rules, IT guidelines, and company procedures b
+- [AI tender opportunity monitoring agent](../data/ideas.yaml) — Monitors public procurement portals and tender databases, classifies relevant opportunities, and del
+- [AI data catalog documentation generator](../data/ideas.yaml) — Automatically generates documentation for database tables, columns, and data pipelines by analyzing
+- [AI test case generator for legacy software](../data/ideas.yaml) — Analyzes legacy code and business documentation to generate comprehensive test cases, reducing the r
+- [AI training quiz generator](../data/ideas.yaml) — Generates customized quizzes, assessments, and knowledge checks from training materials, documentati
+- [AI support ticket summarizer](../data/ideas.yaml) — Automatically summarizes long support ticket threads into concise context briefs that allow agents t
+- [AI newsletter research assistant](../data/ideas.yaml) — Monitors selected sources, summarizes relevant articles, and assembles curated content briefs for ne
+- [AI marketplace listing optimizer](../data/ideas.yaml) — Optimizes product listings on Amazon, Etsy, or eBay by analyzing top-performing competitor listings
+- [AI construction document analyzer](../data/ideas.yaml) — Analyzes construction contracts, blueprints metadata, and project specifications to extract key obli
+- [AI logistics exception assistant](../data/ideas.yaml) — Monitors shipment data to detect delays, exceptions, and anomalies, then automatically drafts custom
+- [AI maintenance manual assistant](../data/ideas.yaml) — Allows field technicians to ask natural language questions about maintenance procedures, part number
+- [AI email triage assistant](../data/ideas.yaml) — Classifies, prioritizes, and drafts responses for incoming email inboxes, reducing time spent on rou
+- [AI job description generator](../data/ideas.yaml) — Generates structured, inclusive, and role-specific job descriptions from a brief summary of requirem
+- [AI budget variance analyzer](../data/ideas.yaml) — Analyzes budget versus actual spending data to identify variances, explain likely causes, and genera
+- [AI meeting agenda builder](../data/ideas.yaml) — Generates structured meeting agendas from calendar context, project status, and previous meeting not
+- [AI vendor due diligence assistant](../data/ideas.yaml) — Accelerates vendor assessment by extracting and summarizing key information from vendor questionnair
+- [AI personal finance document organizer](../data/ideas.yaml) — Helps individuals organize and extract key data from financial documents such as bank statements, ta
+- [AI patient intake form assistant](../data/ideas.yaml) — Helps healthcare providers digitize and process patient intake forms by extracting structured data f
+- [AI content brief generator](../data/ideas.yaml) — Generates detailed SEO content briefs including target keywords, competitor analysis, suggested head
+- [AI technical specification writer](../data/ideas.yaml) — Transforms product requirements and user stories into detailed technical specifications and API docu
+- [AI churn prediction assistant for SaaS](../data/ideas.yaml) — Analyzes user behavior, engagement metrics, and support history to identify accounts at risk of chur
+- [AI press release generator](../data/ideas.yaml) — Generates professional press releases from company announcements, product launches, or milestones, r
+- [AI interview preparation tool](../data/ideas.yaml) — Helps job seekers prepare for interviews by generating likely questions based on the job description
+- [AI pricing page analyzer](../data/ideas.yaml) — Analyzes competitor pricing pages to extract tier structures, feature comparisons, positioning, and
+- [Reversible execution layer for AI agents](../data/ideas.yaml) — A runner that snapshots every file and shell action an agent takes so any run can be rolled back in
+- [AI dynamic security testing for internal web apps](../data/ideas.yaml) — Routes traffic from a browser or test suite through a proxy, then uses a multi-agent scanner to prob
+- [Shared repository context ledger for AI coding tools](../data/ideas.yaml) — Keeps one durable record per repository — architecture notes, feature specs, open decisions and hand
+- [Tool-schema compression proxy for agent stacks](../data/ideas.yaml) — Sits between an agent and its tool servers and serves a compact index of available tools, expanding

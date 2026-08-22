@@ -47,7 +47,7 @@ A practical, anti-hype playbook repository for AI venture building. It covers:
 ## What This Is Not
 
 - Not financial advice or investment guidance
-- Not "how to get rich with AI" content
+- Not get-rich-quick content
 - Not a directory of affiliate links
 - Not a list of guaranteed opportunities
 

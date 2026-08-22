@@ -1,11 +1,11 @@
-# Social posts — 2026-07-02
+# Social posts — 2026-08-22
 
 Copy-paste ready. Review before publishing.
 
 ## LinkedIn
 
 ```
-This week in Awesome AI Venture Playbook (2026-07-02):
+This week in Awesome AI Venture Playbook (2026-08-22):
 
 → AI Data Extraction Service for Research Teams — A productized service that extracts structured data from research reports, PDFs, and web pages for market research firms and investment teams.
 → AI Writing Assistant for B2B Teams — A writing assistant that helps B2B marketing teams draft blog posts, emails, and social content aligned with brand voice and messaging guidelines.

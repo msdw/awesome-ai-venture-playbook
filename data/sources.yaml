@@ -111,3 +111,23 @@ sources:
     status: paused
     added_at: "2026-05-26"
     notes: Paused — funding news lags product reality; re-enable for market sizing
+
+  # ── Curated directories (reviewed by hand, not used as API queries) ──────────
+
+  awesome_oss_alternatives:
+    type: web
+    description: Open-source alternatives to established commercial SaaS products
+    url: "https://github.com/RunaCapital/awesome-oss-alternatives"
+    frequency: weekly
+    status: active
+    added_at: "2026-08-22"
+    notes: Reviewed manually — an open-source alternative with traction marks a wedge worth pricing
+
+  awesome_open_ai_developer_tools:
+    type: web
+    description: Curated directory of open-source AI devtools, local LLMs and SaaS alternatives
+    url: "https://github.com/Sami-Uysal/awesome-open-ai-developer-tools"
+    frequency: weekly
+    status: active
+    added_at: "2026-08-22"
+    notes: Reviewed manually — shared with the Idea Engine sources list

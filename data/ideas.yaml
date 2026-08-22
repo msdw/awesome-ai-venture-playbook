@@ -3163,3 +3163,231 @@ ideas:
       - automation
     source: community
     status: accepted
+
+  - id: ai_reversible_agent_runner
+    title: Reversible execution layer for AI agents
+    summary: >
+      A runner that snapshots every file and shell action an agent takes so any run
+      can be rolled back in one command, making it safe to let agents act on a real
+      working tree instead of a sandbox copy.
+    category: ai_infrastructure
+    target_users:
+      - developer
+      - startup_founder
+      - operations
+    target_buyers:
+      - Engineering teams adopting coding agents
+      - Platform teams
+    industries:
+      - software_dev
+      - operations
+    pain_points:
+      - Teams keep agents in read-only mode because a bad run is not reversible
+      - Reviewing an agent's 40-file change is slower than undoing it and retrying
+      - Shell side effects are invisible in a git diff
+    ai_solution:
+      - Snapshot the working tree and shell state before each agent action
+      - Summarise what a run changed and offer a single rollback point
+      - Flag actions that touch paths outside the declared scope
+    possible_business_models:
+      - open_source_commercial_layer
+      - subscription_saas
+      - enterprise_license
+    technical_stack:
+      - llm_api
+      - data_pipeline
+      - database_backend
+    validation_steps:
+      - Interview 10 teams about why their agents run read-only
+      - Measure how often a rollback is used over 2 weeks on one team
+      - Test whether rollback coverage changes what teams let agents touch
+    difficulty: medium
+    time_to_mvp: "4-6 weeks"
+    risk_level: medium
+    scoring:
+      pain_intensity: 8
+      willingness_to_pay: 7
+      ai_fit: 5
+      buildability: 6
+    tags:
+      - developer_tools
+      - automation
+      - b2b
+      - open_source
+    source: community
+    status: accepted
+    _meta:
+      source: github
+      discovered_at: '2026-08-22T07:40:00'
+      curated: true
+
+  - id: ai_dast_internal_web_apps
+    title: AI dynamic security testing for internal web apps
+    summary: >
+      Routes traffic from a browser or test suite through a proxy, then uses a
+      multi-agent scanner to probe the application the way an attacker would and
+      report reproducible findings.
+    category: ai_automation
+    target_users:
+      - developer
+      - operations
+      - startup_founder
+    target_buyers:
+      - Security engineering teams
+      - Small teams with no dedicated security function
+    industries:
+      - software_dev
+      - operations
+    pain_points:
+      - Internal applications never get a penetration test because the budget goes to public ones
+      - Classic scanners cannot log in or follow a multi-step business flow
+      - Findings arrive without a reproduction the developer can act on
+    ai_solution:
+      - Drive the application through real flows and mutate requests to probe for weaknesses
+      - Turn each finding into a step-by-step reproduction with the exact request
+      - Rank findings by exploitability rather than by scanner severity
+    possible_business_models:
+      - subscription_saas
+      - productized_service
+      - open_source_commercial_layer
+    technical_stack:
+      - llm_api
+      - data_pipeline
+      - analytics
+    validation_steps:
+      - Run against 3 internal applications with known planted weaknesses
+      - Measure the false-positive rate against a manual review
+      - Test whether a developer can reproduce a finding without help
+    difficulty: medium
+    time_to_mvp: "6-10 weeks"
+    risk_level: medium
+    compliance_notes: >
+      Only run against systems the operator owns or has written authorisation to test.
+      Ship the tool with an explicit scope configuration and refuse targets outside it.
+    scoring:
+      pain_intensity: 7
+      willingness_to_pay: 7
+      ai_fit: 7
+      buildability: 5
+    tags:
+      - developer_tools
+      - automation
+      - b2b
+      - security
+    source: community
+    status: accepted
+    _meta:
+      source: github
+      discovered_at: '2026-08-22T07:40:00'
+      curated: true
+
+  - id: ai_repo_context_ledger
+    title: Shared repository context ledger for AI coding tools
+    summary: >
+      Keeps one durable record per repository — architecture notes, feature specs,
+      open decisions and handoff summaries — that any AI coding tool reads and
+      updates, so context survives switching tools or sessions.
+    category: ai_saas
+    target_users:
+      - developer
+      - product_manager
+      - startup_founder
+    target_buyers:
+      - Engineering teams using more than one AI coding tool
+      - Consultancies handing projects between developers
+    industries:
+      - software_dev
+    pain_points:
+      - Every AI coding tool rediscovers the same repository context from scratch
+      - Decisions made in one session are lost when the session or the tool changes
+      - Handing work to a colleague means re-explaining what the agent already knew
+    ai_solution:
+      - Summarise each change into a durable ledger entry with the reasoning attached
+      - Answer "why is this like this" from the ledger rather than from the diff
+      - Detect when the ledger has drifted from the code and flag the stale section
+    possible_business_models:
+      - subscription_saas
+      - open_source_commercial_layer
+      - freemium
+    technical_stack:
+      - llm_api
+      - rag
+      - vector_database
+    validation_steps:
+      - Interview 10 teams that use two or more AI coding tools
+      - Measure onboarding time on one repository with and without the ledger
+      - Check whether the ledger stays accurate after 4 weeks of unattended use
+    difficulty: medium
+    time_to_mvp: "4-6 weeks"
+    risk_level: low
+    scoring:
+      pain_intensity: 7
+      willingness_to_pay: 6
+      ai_fit: 8
+      buildability: 7
+    tags:
+      - developer_tools
+      - documentation
+      - b2b
+      - productivity
+    source: community
+    status: accepted
+    _meta:
+      source: github
+      discovered_at: '2026-08-22T07:40:00'
+      curated: true
+
+  - id: ai_tool_schema_compression_proxy
+    title: Tool-schema compression proxy for agent stacks
+    summary: >
+      Sits between an agent and its tool servers and serves a compact index of
+      available tools, expanding a full schema only when the agent actually selects
+      one, so tool discovery stops consuming most of the context window.
+    category: ai_infrastructure
+    target_users:
+      - developer
+      - startup_founder
+    target_buyers:
+      - Teams running agents against many tool servers
+      - AI platform teams tracking token spend
+    industries:
+      - software_dev
+    pain_points:
+      - Connecting a dozen tool servers spends most of the context window before any work starts
+      - Token cost scales with the number of connected tools, not with the tools used
+      - Trimming tool sets by hand has to be redone every time the stack changes
+    ai_solution:
+      - Serve a short semantic index of tools and expand the full schema on selection
+      - Rank tools by relevance to the current task rather than listing all of them
+      - Report which tools were never selected so the stack can be pruned
+    possible_business_models:
+      - open_source_commercial_layer
+      - usage_based_api
+      - subscription_saas
+    technical_stack:
+      - llm_api
+      - vector_database
+      - analytics
+    validation_steps:
+      - Measure tokens spent on tool discovery before and after, on one real agent stack
+      - Check that task success rate does not drop when schemas are served lazily
+      - Interview 10 teams about their current token spend on tool definitions
+    difficulty: medium
+    time_to_mvp: "3-5 weeks"
+    risk_level: low
+    scoring:
+      pain_intensity: 7
+      willingness_to_pay: 6
+      ai_fit: 7
+      buildability: 7
+    tags:
+      - developer_tools
+      - automation
+      - open_source
+      - b2b
+    source: community
+    status: accepted
+    _meta:
+      source: github
+      discovered_at: '2026-08-22T07:40:00'
+      curated: true
