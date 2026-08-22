@@ -1,13 +1,12 @@
 # This Week's Finds — 2026-08-22
 
-The latest venture candidates discovered by our automated weekly scan, ranked by score.
+The latest idea candidates discovered by our automated weekly scan, ranked by score.
 Curated by hand — see [the full list](https://github.com/msdw/awesome-ai-venture-playbook).
 
-- **AI Data Extraction Service for Research Teams** — A productized service that extracts structured data from research reports, PDFs, and web pages for market research firms and investment teams. *(score: 62)*
-- **AI Writing Assistant for B2B Teams** — A writing assistant that helps B2B marketing teams draft blog posts, emails, and social content aligned with brand voice and messaging guidelines. *(score: 51)*
-- **Jasper** — An AI content creation platform aimed at marketing teams, helping them generate marketing copy, blog posts, and social media content at scale using large language models. *(score: 0)*
-- **Copy.ai** — An AI writing tool that helps individuals and teams generate marketing copy, sales emails, product descriptions, and social media content. *(score: 0)*
-- **Cursor** — An AI-native code editor that integrates LLMs deeply into the development workflow, allowing developers to chat with their codebase, generate code, and perform multi-file edits using natural language instructions. *(score: 0)*
+- **Shared repository context ledger for AI coding tools** — Keeps one durable record per repository — architecture notes, feature specs, open decisions and handoff summaries — that any AI coding tool reads and updates, so context survives switching tools or sessions. *(score: 28)*
+- **Tool-schema compression proxy for agent stacks** — Sits between an agent and its tool servers and serves a compact index of available tools, expanding a full schema only when the agent actually selects one, so tool discovery stops consuming most of the context window. *(score: 27)*
+- **Reversible execution layer for AI agents** — A runner that snapshots every file and shell action an agent takes so any run can be rolled back in one command, making it safe to let agents act on a real working tree instead of a sandbox copy. *(score: 26)*
+- **AI dynamic security testing for internal web apps** — Routes traffic from a browser or test suite through a proxy, then uses a multi-agent scanner to probe the application the way an attacker would and report reproducible findings. *(score: 26)*
 
 ---
 

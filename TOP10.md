@@ -2,26 +2,26 @@
 
 The 10 highest-scoring entries in the Awesome AI Venture Playbook, across all scoring dimensions.
 
-1. **AI Data Extraction Service for Research Teams** *(score: 62)*
-   A productized service that extracts structured data from research reports, PDFs, and web pages for market research firms and investment teams.
-2. **AI Writing Assistant for B2B Teams** *(score: 51)*
-   A writing assistant that helps B2B marketing teams draft blog posts, emails, and social content aligned with brand voice and messaging guidelines.
-3. **Jasper** *(score: 0)*
-   An AI content creation platform aimed at marketing teams, helping them generate marketing copy, blog posts, and social media content at scale using large language models.
-4. **Copy.ai** *(score: 0)*
-   An AI writing tool that helps individuals and teams generate marketing copy, sales emails, product descriptions, and social media content.
-5. **Cursor** *(score: 0)*
-   An AI-native code editor that integrates LLMs deeply into the development workflow, allowing developers to chat with their codebase, generate code, and perform multi-file edits using natural language instructions.
-6. **Otter.ai** *(score: 0)*
-   An AI meeting assistant that automatically transcribes meetings, identifies speakers, generates summaries, and syncs notes across teams.
-7. **Runway** *(score: 0)*
-   An AI-powered creative platform that allows video editors, filmmakers, and creators to generate and edit video content using AI tools including text-to-video, inpainting, and background removal.
-8. **ElevenLabs** *(score: 0)*
-   An AI voice generation and cloning platform that allows creators, publishers, and enterprises to generate natural-sounding speech in multiple voices and languages.
-9. **Perplexity AI** *(score: 0)*
-   An AI-powered search and answer engine that provides cited, conversational answers to queries by synthesizing information from live web sources.
-10. **Replit** *(score: 0)*
-   An online collaborative coding environment that integrated AI capabilities to help developers write, debug, and deploy software directly in the browser, with a focus on learning and rapid prototyping.
+1. **AI customer feedback synthesizer** *(score: 33)*
+   Aggregates and synthesizes customer feedback from multiple sources (support tickets, reviews, surveys, NPS responses) into structured insights, themes, and priority signals.
+2. **AI customer support agent for SMBs** *(score: 33)*
+   A deployable AI support agent that handles common customer questions for small and medium businesses, reducing ticket volume and improving response time.
+3. **AI sales call coaching tool** *(score: 32)*
+   Real-time or post-call AI coach that analyzes sales calls, identifies objection handling gaps, scores call quality, and provides specific improvement suggestions.
+4. **AI RFP response assistant** *(score: 32)*
+   Helps B2B sales and pre-sales teams answer RFPs faster by retrieving relevant past answers, product documentation, and compliance content from a structured knowledge base.
+5. **AI proposal generator for consultants** *(score: 31)*
+   Generates professional consulting proposals from a brief description of the project scope, client industry, and desired outcomes.
+6. **AI knowledge base builder from existing docs** *(score: 31)*
+   Transforms a company's existing documentation (PDFs, Notion, Confluence, Docs) into a searchable, conversational knowledge base that answers employee or customer questions.
+7. **AI product review analyzer** *(score: 31)*
+   Analyzes product reviews from e-commerce platforms to extract recurring themes, feature requests, quality issues, and competitive gaps for product and marketing teams.
+8. **AI sales research agent** *(score: 31)*
+   Automates pre-call research by compiling company news, executive changes, recent funding, and LinkedIn activity into a concise brief before a sales call.
+9. **AI SQL copilot for analysts** *(score: 31)*
+   Translates natural language questions into SQL queries against connected databases, allowing business analysts to explore data without writing code.
+10. **AI social media repurposing workflow** *(score: 31)*
+   Transforms long-form content such as blog posts, webinars, and reports into tailored social media posts for LinkedIn, Twitter, and newsletters.
 
 ---
 

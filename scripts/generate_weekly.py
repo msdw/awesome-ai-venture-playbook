@@ -9,11 +9,15 @@ ROOT = Path(__file__).parent.parent
 DATA = ROOT / "data"
 
 # Repo-specific configuration
-DATA_FILE = "ventures.yaml"
-DATA_KEY = "ventures"
-ENTRY_LABEL = "venture"
-TITLE_FIELD = "name"
-SUMMARY_FIELD = "description"
+# The digest tracks ideas.yaml, which is what discover_new_entries.py writes to.
+# It used to read ventures.yaml: only 2 of the 10 ventures carry a scoring block
+# and none carries _meta.discovered_at, so "This Week's Finds" could never show a
+# real find and the Top 10 was padded with score-0 entries.
+DATA_FILE = "ideas.yaml"
+DATA_KEY = "ideas"
+ENTRY_LABEL = "idea"
+TITLE_FIELD = "title"
+SUMMARY_FIELD = "summary"
 REPO_URL = "https://github.com/msdw/awesome-ai-venture-playbook"
 REPO_NAME = "Awesome AI Venture Playbook"
 HUB_URL = "https://msdw.github.io/awesome-ai-hub/"

@@ -7,9 +7,9 @@ Copy-paste ready. Review before publishing.
 ```
 This week in Awesome AI Venture Playbook (2026-08-22):
 
-→ AI Data Extraction Service for Research Teams — A productized service that extracts structured data from research reports, PDFs, and web pages for market research firms and investment teams.
-→ AI Writing Assistant for B2B Teams — A writing assistant that helps B2B marketing teams draft blog posts, emails, and social content aligned with brand voice and messaging guidelines.
-→ Jasper — An AI content creation platform aimed at marketing teams, helping them generate marketing copy, blog posts, and social media content at scale using large language models.
+→ Shared repository context ledger for AI coding tools — Keeps one durable record per repository — architecture notes, feature specs, open decisions and handoff summaries — that any AI coding tool reads and updates, so context survives switching tools or sessions.
+→ Tool-schema compression proxy for agent stacks — Sits between an agent and its tool servers and serves a compact index of available tools, expanding a full schema only when the agent actually selects one, so tool discovery stops consuming most of the context window.
+→ Reversible execution layer for AI agents — A runner that snapshots every file and shell action an agent takes so any run can be rolled back in one command, making it safe to let agents act on a real working tree instead of a sandbox copy.
 
 Every entry is scored, structured, and hype-free.
 Full list: https://github.com/msdw/awesome-ai-venture-playbook
@@ -19,11 +19,11 @@ The whole series: https://msdw.github.io/awesome-ai-hub/
 ## X / Twitter
 
 ```
-This week's top AI ventures, scored and structured — no hype:
+This week's top AI ideas, scored and structured — no hype:
 
-→ AI Data Extraction Service for Research Teams
-→ AI Writing Assistant for B2B Teams
-→ Jasper
+→ Shared repository context ledger for AI coding tools
+→ Tool-schema compression proxy for agent stacks
+→ Reversible execution layer for AI agents
 
 https://github.com/msdw/awesome-ai-venture-playbook
 ```

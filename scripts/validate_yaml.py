@@ -47,7 +47,7 @@ def load_yaml(path):
         return None
 
 
-def validate_collection(path, collection_key, required_fields, name):
+def validate_collection(path, collection_key, required_fields, name, category_ids=None):
     print(f"\nValidating {path.name}...")
     data = load_yaml(path)
     if data is None:
@@ -66,6 +66,12 @@ def validate_collection(path, collection_key, required_fields, name):
         for field in required_fields:
             if field not in item:
                 error(f"{prefix}: missing required field '{field}'")
+
+        # Check category against categories.yaml so the taxonomy cannot drift
+        # away from the entries, as it did in the Idea Engine repo.
+        category = item.get("category")
+        if category_ids and category and category not in category_ids:
+            error(f"{prefix}: unknown category '{category}' — declare it in categories.yaml")
 
         status = item.get("status")
         if status and status not in VALID_STATUSES:
@@ -120,6 +126,7 @@ def validate_taxonomy(path, key):
 def main():
     print("=== Validating YAML schemas ===")
 
+    taxonomies = {}
     for fname, key in [
         ("categories.yaml", "categories"),
         ("business_models.yaml", "business_models"),
@@ -131,10 +138,11 @@ def main():
     ]:
         p = DATA / fname
         if p.exists():
-            validate_taxonomy(p, key)
+            taxonomies[key] = validate_taxonomy(p, key)
 
     if (DATA / "ideas.yaml").exists():
-        validate_collection(DATA / "ideas.yaml", "ideas", REQUIRED_IDEA_FIELDS, "ideas")
+        validate_collection(DATA / "ideas.yaml", "ideas", REQUIRED_IDEA_FIELDS, "ideas",
+                            taxonomies.get("categories"))
 
     if (DATA / "ventures.yaml").exists():
         validate_ventures(DATA / "ventures.yaml")
