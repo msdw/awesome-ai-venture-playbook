@@ -27,4 +27,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Regenerate markdown pages [skip ci]"
-          file_pattern: "ideas/**"
+          file_pattern: "ideas/** ventures/**"
