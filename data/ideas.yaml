@@ -3391,3 +3391,287 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_fuxicodex_fuxi
+    title: Fuxi
+    summary: FuXi is a fast, self-contained AI coding agent that lives in your terminal
+      — edit code, run commands, and drive tools, with cost-aware routing across LLM
+      providers.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent
+    - ai
+    - ai-agent
+    - ai-coding
+    - autonomous-agent
+    source: https://github.com/fuxicodex/Fuxi
+    status: candidate
+    _meta:
+      stars: 3102
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-08-31T14:29:20.171153'
+  - id: candidate_0xsline_awesome-deepseek-harness
+    title: awesome-deepseek-harness
+    summary: 'DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure
+      from dsh-external/hub and the public dsh-plugin topic.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent
+    - ai
+    - ai-agents
+    - ai-tools
+    - awesome
+    source: https://github.com/0xsline/awesome-deepseek-harness
+    status: candidate
+    _meta:
+      stars: 957
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-08-31T14:29:20.171174'
+  - id: candidate_hkqr_my-free-code
+    title: my-free-code
+    summary: Open-source multi-provider AI gateway for Claude Code and other coding
+      agents, with model routing, streaming, tools, reasoning, fallbacks, and local
+      model support
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - claude-code
+    - free-claude-api
+    - multi-provider
+    - multi-provider-llm
+    source: https://github.com/hkqr/my-free-code
+    status: candidate
+    _meta:
+      stars: 487
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-08-31T14:29:20.171179'
+  - id: candidate_mrhlaingbwardev_hb-recon
+    title: hb-recon
+    summary: Automated reconnaissance framework with AI-powered report generation. Auto-detects
+      tools, enumerates subdomains, crawls endpoints for security assessments.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/mrhlaingbwardev/hb-recon
+    status: candidate
+    _meta:
+      stars: 338
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-08-31T14:29:20.171185'
+  - id: candidate_usedotai_dot-reflex
+    title: dot-reflex
+    summary: Open-source agent execution-recovery controller for coding and tool-using
+      AI agents.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-supervision
+    - ai-agents
+    - coding-agents
+    - llm
+    - open-source
+    source: https://github.com/usedotai/dot-reflex
+    status: candidate
+    _meta:
+      stars: 80
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-08-31T14:29:20.171189'
+  - id: candidate_yasir-mo_ai-watermark-remover-gui
+    title: AI-watermark-remover-GUI
+    summary: Tool to remove AI watermarks. It's tested for Claude text watermarking
+      and is model agnostic and can be used to remove algorithmic watermarks.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - claude-ai
+    - statistical-watermarks
+    - synthid-text
+    - text-generation
+    - watermark-tools
+    source: https://github.com/yasir-mo/AI-watermark-remover-GUI
+    status: candidate
+    _meta:
+      stars: 72
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-08-31T14:29:20.171193'
+  - id: candidate_sui-ni2_personal-ai-os
+    title: personal-ai-os
+    summary: A privacy-first, provider-neutral personal AI workbench with chat, memory,
+      auditable tools, MCP, and isolated project plugins.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-workbench
+    - anthropic
+    - developer-tools
+    - mcp
+    - ollama
+    source: https://github.com/sui-ni2/personal-ai-os
+    status: candidate
+    _meta:
+      stars: 59
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-08-31T14:29:20.171196'
+  - id: candidate_ppop123_ai-tools-radar
+    title: ai-tools-radar
+    summary: AI 工具站增长情报库:真实流量/增长曲线/新品雷达/dofollow 外链库 · Growth intelligence for AI tools,
+      runs locally
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/ppop123/ai-tools-radar
+    status: candidate
+    _meta:
+      stars: 58
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-08-31T14:29:20.171204'
+  - id: candidate_mal19industries_jarvis-os-v.2
+    title: JARVIS-OS-V.2
+    summary: JARVIS AI is an open-source AI assistant built for automation, productivity,
+      and intelligent workflows. Featuring natural conversations, customizable tools,
+      API integrations, memory, and a modern interface, it provides a powerful foundation
+      for building personal assistants, AI agents, and next-generation applications.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/MAL19INDUSTRIES/JARVIS-OS-V.2
+    status: candidate
+    _meta:
+      stars: 57
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-08-31T14:29:20.171208'
+  - id: candidate_scenepilotllm_scenepilot
+    title: scenepilot
+    summary: World's first open-source, agentic video production system. 12 production
+      pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your
+      AI coding assistant into a full video production studio.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - api
+    - content-extraction
+    - data-extraction
+    - html-to-markdown
+    source: https://github.com/scenepilotLLM/scenepilot
+    status: candidate
+    _meta:
+      stars: 48
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-08-31T14:29:20.171212'
+  - id: candidate_chord1990_lighter-airdrop-tracker
+    title: Lighter-Airdrop-Tracker
+    summary: 'Lighter airdrop tracker — track Lighter points, trading volume and leaderboard
+      rank in the terminal, tick season farming tasks and estimate your airdrop allocation
+      and eligibility. Read-only: public Lighter API, no private keys. Unofficial community
+      tool, not affiliated with Lighter (lighter.xyz).'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - activity-tracker
+    - airdrop-analytics-lighter
+    - airdrop-dashboard-lighter
+    - airdrop-farming-bot
+    - airdrop-score-lighter
+    source: https://github.com/chord1990/Lighter-Airdrop-Tracker
+    status: candidate
+    _meta:
+      stars: 40
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-08-31T14:29:20.171215'
+  - id: candidate_yementechcollective_aweasome-yemeni-open-source
+    title: aweasome-yemeni-open-source
+    summary: A curated directory of Hundreds of open-source projects by Yemeni developers
+      —PHP Laravel, Flutter, Python, AI, payments, and Arabic/RTL tooling.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - arabic
+    - awesome
+    - awesome-list
+    - curated-list
+    - developer-tools
+    source: https://github.com/yementechcollective/aweasome-yemeni-open-source
+    status: candidate
+    _meta:
+      stars: 37
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-08-31T14:29:20.171218'

@@ -1,4 +1,4 @@
-# Top 10 — updated 2026-08-22
+# Top 10 — updated 2026-08-31
 
 The 10 highest-scoring entries in the Awesome AI Venture Playbook, across all scoring dimensions.
 
