@@ -131,3 +131,43 @@ sources:
     status: active
     added_at: "2026-08-22"
     notes: Reviewed manually — shared with the Idea Engine sources list
+
+  github_composiohq_awesome_claude_skills:
+    type: github
+    description: A curated list of awesome Claude Skills, resources, and tools for customizing
+      Claude AI workflows
+    url: https://github.com/ComposioHQ/awesome-claude-skills
+    found_by_query: awesome saas resources list
+    frequency: weekly
+    status: candidate
+    stars: 74572
+    added_at: '2026-09-06'
+  github_edostra_marketing_for_founders:
+    type: github
+    description: Practical marketing resources to get the first 10 / 100 / 1000 users
+      for your SaaS / App / Startup
+    url: https://github.com/EdoStra/Marketing-for-Founders
+    found_by_query: awesome saas resources list
+    frequency: weekly
+    status: candidate
+    stars: 6857
+    added_at: '2026-09-06'
+  github_ishanvyas22_awesome_open_source_systems:
+    type: github
+    description: ':sunglasses: A curated list of awesome Free Open Source Softwares(FOSS).'
+    url: https://github.com/ishanvyas22/awesome-open-source-systems
+    found_by_query: awesome saas resources list
+    frequency: weekly
+    status: candidate
+    stars: 650
+    added_at: '2026-09-06'
+  github_layr_labs_awesome_avs:
+    type: github
+    description: A curated list of awesome projects and resources related to AVS development
+      and EigenLayer.
+    url: https://github.com/Layr-Labs/awesome-avs
+    found_by_query: awesome saas resources list
+    frequency: weekly
+    status: candidate
+    stars: 178
+    added_at: '2026-09-06'
