@@ -3391,3 +3391,29 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_2akouwu_reverify
+    title: reverify
+    summary: Stop your AI from making things up — it proposes, deterministic tools decide,
+      every claim checked against ground truth with evidence. Grounded facts and context
+      survive resets. Reverse engineering is the proving ground. MCP server + CLI.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-coding
+    - anti-hallucination
+    - binary-analysis
+    source: https://github.com/2akouwu/reverify
+    status: candidate
+    _meta:
+      stars: 934
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-06T11:31:13.150564'
