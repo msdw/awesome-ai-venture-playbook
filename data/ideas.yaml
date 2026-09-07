@@ -3391,3 +3391,289 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_0xsline_awesome-deepseek-harness
+    title: awesome-deepseek-harness
+    summary: 'DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure
+      from dsh-external/hub and the public dsh-plugin topic.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent
+    - ai
+    - ai-agents
+    - ai-tools
+    - awesome
+    source: https://github.com/0xsline/awesome-deepseek-harness
+    status: candidate
+    _meta:
+      stars: 1012
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-07T13:03:44.739467'
+  - id: candidate_2akouwu_reverify
+    title: reverify
+    summary: Stop your AI from making things up — it proposes, deterministic tools decide,
+      every claim checked against ground truth with evidence. Grounded facts and context
+      survive resets. Reverse engineering is the proving ground. MCP server + CLI.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-coding
+    - anti-hallucination
+    - binary-analysis
+    source: https://github.com/2akouwu/reverify
+    status: candidate
+    _meta:
+      stars: 1002
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-07T13:03:44.739484'
+  - id: candidate_hkqr_my-free-code
+    title: my-free-code
+    summary: Open-source multi-provider AI gateway for Claude Code and other coding
+      agents, with model routing, streaming, tools, reasoning, fallbacks, and local
+      model support
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - claude-code
+    - free-claude-api
+    - multi-provider
+    - multi-provider-llm
+    source: https://github.com/hkqr/my-free-code
+    status: candidate
+    _meta:
+      stars: 627
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-07T13:03:44.739489'
+  - id: candidate_ppop123_ai-tools-radar
+    title: ai-tools-radar
+    summary: AI 工具站增长情报库:真实流量/增长曲线/新品雷达/dofollow 外链库 · Growth intelligence for AI tools,
+      runs locally
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/ppop123/ai-tools-radar
+    status: candidate
+    _meta:
+      stars: 121
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-07T13:03:44.739495'
+  - id: candidate_rankspotai_awesome-geo-tools
+    title: awesome-geo-tools
+    summary: A curated list of GEO and AI visibility tools, compared on which AI engines
+      they track, how often they refresh, what they cost, and whether you can get your
+      data out.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - aeo
+    - ai-search
+    - ai-seo
+    - ai-visibility
+    - answer-engine-optimization
+    source: https://github.com/RankSpotAI/awesome-geo-tools
+    status: candidate
+    _meta:
+      stars: 85
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-07T13:03:44.739499'
+  - id: candidate_usedotai_dot-reflex
+    title: dot-reflex
+    summary: Open-source agent execution-recovery controller for coding and tool-using
+      AI agents.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-supervision
+    - ai-agents
+    - coding-agents
+    - llm
+    - open-source
+    source: https://github.com/usedotai/dot-reflex
+    status: candidate
+    _meta:
+      stars: 81
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-07T13:03:44.739503'
+  - id: candidate_fork-is-coding_fishtool
+    title: FishTool
+    summary: 这是一个完全使用Astrbot开发的项目，如果你恰好在B站上发视频，那这个项目就是为你而生的，这是一个结合运营业务实战经验制作的AI运营工具箱，瞄准真实业务痛点、面向新手个人创作者、无需学习成本的个人自媒体智能运营助理
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/FORK-is-coding/FishTool
+    status: candidate
+    _meta:
+      stars: 78
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-07T13:03:44.739506'
+  - id: candidate_yasir-mo_ai-watermark-remover-gui
+    title: AI-watermark-remover-GUI
+    summary: Tool to remove AI watermarks. It's tested for Claude text watermarking
+      and is model agnostic and can be used to remove algorithmic watermarks.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - claude-ai
+    - statistical-watermarks
+    - synthid-text
+    - text-generation
+    - watermark-tools
+    source: https://github.com/yasir-mo/AI-watermark-remover-GUI
+    status: candidate
+    _meta:
+      stars: 75
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-07T13:03:44.739514'
+  - id: candidate_sui-ni2_personal-ai-os
+    title: personal-ai-os
+    summary: A privacy-first, provider-neutral personal AI workbench with chat, memory,
+      auditable tools, MCP, and isolated project plugins.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-workbench
+    - anthropic
+    - developer-tools
+    - mcp
+    - ollama
+    source: https://github.com/sui-ni2/personal-ai-os
+    status: candidate
+    _meta:
+      stars: 60
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-07T13:03:44.739519'
+  - id: candidate_jinghao-leon_dsh-alpha-desk
+    title: dsh-alpha-desk
+    summary: 'Alpha Desk — a deepseek-harness (dsh) skill pack that turns an agent session
+      into a compliance-first AI investment desk: multi-strategy fund backtesting via
+      ai-hedge-fund, a tools/pre-execute risk gate, cron monitoring and thesis memory.
+      把 dsh 会话变成合规、可复现、可追责的 AI 投研工作台。'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-skills
+    - ai-hedge-fund
+    - backtesting
+    - deepseek
+    - deepseek-harness
+    source: https://github.com/JingHao-Leon/dsh-alpha-desk
+    status: candidate
+    _meta:
+      stars: 43
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-07T13:03:44.739522'
+  - id: candidate_sarrazola_openlivery
+    title: openlivery
+    summary: Open-source, white-label AI agent platform for agencies to deploy and manage
+      branded WhatsApp agents across client accounts, with human handoff, knowledge
+      bases, custom tools, and self-hosting.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agents
+    - docker
+    - fastapi
+    - multi-tenant
+    - nextjs
+    source: https://github.com/sarrazola/openlivery
+    status: candidate
+    _meta:
+      stars: 39
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-07T13:03:44.739525'
+  - id: candidate_yementechcollective_aweasome-yemeni-open-source
+    title: aweasome-yemeni-open-source
+    summary: A curated directory of Hundreds of open-source projects by Yemeni developers
+      —PHP Laravel, Flutter, Python, AI, payments, and Arabic/RTL tooling.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - arabic
+    - awesome
+    - awesome-list
+    - curated-list
+    - developer-tools
+    source: https://github.com/yementechcollective/aweasome-yemeni-open-source
+    status: candidate
+    _meta:
+      stars: 37
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-07T13:03:44.739528'
