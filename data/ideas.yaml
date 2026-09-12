@@ -3391,3 +3391,29 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_rankspotai_awesome-geo-tools
+    title: awesome-geo-tools
+    summary: A curated list of GEO and AI visibility tools, compared on which AI engines
+      they track, how often they refresh, what they cost, and whether you can get your
+      data out.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - aeo
+    - ai-search
+    - ai-seo
+    - ai-visibility
+    - answer-engine-optimization
+    source: https://github.com/RankSpotAI/awesome-geo-tools
+    status: candidate
+    _meta:
+      stars: 69
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-12T11:28:24.592144'
