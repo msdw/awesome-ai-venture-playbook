@@ -3391,3 +3391,28 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_matthew0822_toolreplay
+    title: ToolReplay
+    summary: 'Audit AI agent tool-call transcripts: hash-chain sealing, deterministic
+      replay, and scope overreach checks. Dependency-free Python CLI.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agents
+    - audit
+    - cli
+    - determinism
+    - hash-chain
+    source: https://github.com/Matthew0822/ToolReplay
+    status: candidate
+    _meta:
+      stars: 168
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-15T12:27:57.912106'
