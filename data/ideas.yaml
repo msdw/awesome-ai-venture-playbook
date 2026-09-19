@@ -3391,3 +3391,72 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_matthew0822_toolreplay
+    title: ToolReplay
+    summary: 'Audit AI agent tool-call transcripts: hash-chain sealing, deterministic
+      replay, and scope overreach checks. Dependency-free Python CLI.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agents
+    - audit
+    - cli
+    - determinism
+    - hash-chain
+    source: https://github.com/Matthew0822/ToolReplay
+    status: candidate
+    _meta:
+      stars: 180
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-19T11:47:19.267483'
+  - id: candidate_misbahsy_anti-ai-slop
+    title: anti-ai-slop
+    summary: An agent skill with multiple gates to check and to remove any AI slop.
+      Use it with codex/claude code or any of your favorite AI tools.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/misbahsy/anti-ai-slop
+    status: candidate
+    _meta:
+      stars: 70
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-19T11:47:19.267502'
+  - id: candidate_kajeesan_open-health-atlas
+    title: Open-Health-Atlas
+    summary: Explore sleep, training, mood and nutrition together using local records,
+      traceable calculations and optional MCP tools for your preferred AI client.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - data-provenance
+    - data-visualization
+    - flask
+    - health-data
+    - local-first
+    source: https://github.com/kajeesan/Open-Health-Atlas
+    status: candidate
+    _meta:
+      stars: 35
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-19T11:47:19.267508'
