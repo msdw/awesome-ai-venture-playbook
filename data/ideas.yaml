@@ -3391,3 +3391,290 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_2akouwu_reverify
+    title: reverify
+    summary: Stop your AI from making things up — it proposes, deterministic tools decide,
+      every claim checked against ground truth with evidence. Grounded facts and context
+      survive resets. Reverse engineering is the proving ground. MCP server + CLI.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-coding
+    - anti-hallucination
+    - binary-analysis
+    source: https://github.com/2akouwu/reverify
+    status: candidate
+    _meta:
+      stars: 1235
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-21T13:24:16.093484'
+  - id: candidate_hkqr_my-free-code
+    title: my-free-code
+    summary: Open-source multi-provider AI gateway for Claude Code and other coding
+      agents, with model routing, streaming, tools, reasoning, fallbacks, and local
+      model support
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - claude-code
+    - free-claude-api
+    - multi-provider
+    - multi-provider-llm
+    source: https://github.com/hkqr/my-free-code
+    status: candidate
+    _meta:
+      stars: 639
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-21T13:24:16.093506'
+  - id: candidate_matthew0822_toolreplay
+    title: ToolReplay
+    summary: 'Audit AI agent tool-call transcripts: hash-chain sealing, deterministic
+      replay, and scope overreach checks. Dependency-free Python CLI.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agents
+    - audit
+    - cli
+    - determinism
+    - hash-chain
+    source: https://github.com/Matthew0822/ToolReplay
+    status: candidate
+    _meta:
+      stars: 182
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-21T13:24:16.093510'
+  - id: candidate_ellie886_datalume
+    title: Datalume
+    summary: LLM-powered AI Data Analysis Agent with tool calling and reusable analytical
+      skills.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/ellie886/Datalume
+    status: candidate
+    _meta:
+      stars: 125
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-21T13:24:16.093517'
+  - id: candidate_rankspotai_awesome-geo-tools
+    title: awesome-geo-tools
+    summary: A curated list of GEO and AI visibility tools, compared on which AI engines
+      they track, how often they refresh, what they cost, and whether you can get your
+      data out.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - aeo
+    - ai-search
+    - ai-seo
+    - ai-visibility
+    - answer-engine-optimization
+    source: https://github.com/RankSpotAI/awesome-geo-tools
+    status: candidate
+    _meta:
+      stars: 102
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-21T13:24:16.093520'
+  - id: candidate_reality-opened_openreality
+    title: openreality
+    summary: 'Open Reality: phone video to AI-queryable 3D scenes. MCP tools for Claude/Codex/Cursor
+      (npm openreality-mcp), the self-hostable broker, and the VGGT-SLAM library, in
+      one repo. BSD-2-Clause.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - 3d
+    - 3d-reconstruction
+    - claude
+    - claude-code
+    - codex
+    source: https://github.com/reality-opened/openreality
+    status: candidate
+    _meta:
+      stars: 102
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-21T13:24:16.093525'
+  - id: candidate_misbahsy_anti-ai-slop
+    title: anti-ai-slop
+    summary: An agent skill with multiple gates to check and to remove any AI slop.
+      Use it with codex/claude code or any of your favorite AI tools.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/misbahsy/anti-ai-slop
+    status: candidate
+    _meta:
+      stars: 76
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-21T13:24:16.093528'
+  - id: candidate_usedotai_dot-reflex
+    title: dot-reflex
+    summary: Open-source agent execution-recovery controller for coding and tool-using
+      AI agents.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-supervision
+    - ai-agents
+    - coding-agents
+    - llm
+    - open-source
+    source: https://github.com/usedotai/dot-reflex
+    status: candidate
+    _meta:
+      stars: 74
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-21T13:24:16.093538'
+  - id: candidate_kajeesan_open-health-atlas
+    title: Open-Health-Atlas
+    summary: Explore sleep, training, mood and nutrition together using local records,
+      traceable calculations and optional MCP tools for your preferred AI client.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - data-provenance
+    - data-visualization
+    - flask
+    - health-data
+    - local-first
+    source: https://github.com/kajeesan/Open-Health-Atlas
+    status: candidate
+    _meta:
+      stars: 59
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-21T13:24:16.093543'
+  - id: candidate_grapefruit0205_click
+    title: click
+    summary: Click does not replace Nx, Bazel, pytest, or Jest. It sits above existing
+      verification tools and manages which verification evidence remains applicable
+      across AI-agent iterations.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agentic-coding-tool
+    - ai-agents
+    - claude
+    - claude-code
+    - codex
+    source: https://github.com/grapefruit0205/click
+    status: candidate
+    _meta:
+      stars: 41
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-21T13:24:16.093546'
+  - id: candidate_npci_ainxt-enterprise
+    title: ainxt-enterprise
+    summary: AiNxt Enterprise is an open-source enterprise AI platform designed to help
+      organizations build, deploy and manage AI applications, agents and workflows.
+      It brings AI models, tools, automation and governance together in a single platform,
+      with the flexibility to run on an organization’s own infrastructure.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/npci/ainxt-enterprise
+    status: candidate
+    _meta:
+      stars: 40
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-21T13:24:16.093549'
+  - id: candidate_llopresto87_cypress
+    title: Cypress
+    summary: CYPRESS (Contextual Yield Protocol for Routed Expert Seed Systems) — a
+      project- and vendor-agnostic multi-agent seed for AI coding tools. Drop it into
+      any repo to give agents a large number of  per-role expert team, named protocols,
+      a progressive-discovery knowledge graph, and spec- and test-driven discipline
+      by default.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-framework
+    - agent-orchestration
+    - agent-skills
+    - agentic-ai
+    - agentic-workflow
+    source: https://github.com/llopresto87/Cypress
+    status: candidate
+    _meta:
+      stars: 35
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-21T13:24:16.093552'
