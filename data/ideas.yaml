@@ -3391,3 +3391,292 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_2akouwu_reverify
+    title: reverify
+    summary: Stop your AI from making things up — it proposes, deterministic tools decide,
+      every claim checked against ground truth with evidence. Grounded facts and context
+      survive resets. Reverse engineering is the proving ground. MCP server + CLI.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-coding
+    - anti-hallucination
+    - binary-analysis
+    source: https://github.com/2akouwu/reverify
+    status: candidate
+    _meta:
+      stars: 1251
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-28T14:35:22.974384'
+  - id: candidate_matthew0822_toolreplay
+    title: ToolReplay
+    summary: 'Audit AI agent tool-call transcripts: hash-chain sealing, deterministic
+      replay, and scope overreach checks. Dependency-free Python CLI.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agents
+    - audit
+    - cli
+    - determinism
+    - hash-chain
+    source: https://github.com/Matthew0822/ToolReplay
+    status: candidate
+    _meta:
+      stars: 184
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-28T14:35:22.974403'
+  - id: candidate_ellie886_datalume
+    title: Datalume
+    summary: LLM-powered AI Data Analysis Agent with tool calling and reusable analytical
+      skills.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/ellie886/Datalume
+    status: candidate
+    _meta:
+      stars: 134
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-28T14:35:22.974408'
+  - id: candidate_reality-opened_openreality
+    title: openreality
+    summary: 'Open Reality: phone video to AI-queryable 3D scenes. MCP tools for Claude/Codex/Cursor
+      (npm openreality-mcp), the self-hostable broker, and the VGGT-SLAM library, in
+      one repo. BSD-2-Clause.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - 3d
+    - 3d-reconstruction
+    - claude
+    - claude-code
+    - codex
+    source: https://github.com/reality-opened/openreality
+    status: candidate
+    _meta:
+      stars: 132
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-28T14:35:22.974414'
+  - id: candidate_graygnatconsole_mcp-audit-tool
+    title: mcp-audit-tool
+    summary: 🛡️ Security audit CLI for Model Context Protocol (MCP) servers — scan AI
+      agent configs for tool poisoning, rug pulls, hardcoded secrets, command injection
+      & supply-chain risks. Pure Python, SARIF + CI ready.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-security
+    - agentic-ai
+    - ai-security
+    - cursor
+    - llm-guardrails
+    source: https://github.com/graygnatconsole/mcp-audit-tool
+    status: candidate
+    _meta:
+      stars: 119
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-28T14:35:22.974417'
+  - id: candidate_rankspotai_awesome-geo-tools
+    title: awesome-geo-tools
+    summary: A curated list of GEO and AI visibility tools, compared on which AI engines
+      they track, how often they refresh, what they cost, and whether you can get your
+      data out.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - aeo
+    - ai-search
+    - ai-seo
+    - ai-visibility
+    - answer-engine-optimization
+    source: https://github.com/RankSpotAI/awesome-geo-tools
+    status: candidate
+    _meta:
+      stars: 103
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-28T14:35:22.974421'
+  - id: candidate_255308153_ctxguard
+    title: CtxGuard
+    summary: 面向 AI Agent 的高并发、低延迟上下文治理与 Prompt Cache 守护网关 (Tree-sitter AST / Tool Delta
+      / 50%~80% Token 削减)
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agent
+    - claude-code
+    - context-compression
+    - cursor
+    - fastapi
+    source: https://github.com/255308153/CtxGuard
+    status: candidate
+    _meta:
+      stars: 93
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-28T14:35:22.974424'
+  - id: candidate_misbahsy_anti-ai-slop
+    title: anti-ai-slop
+    summary: An agent skill with multiple gates to check and to remove any AI slop.
+      Use it with codex/claude code or any of your favorite AI tools.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/misbahsy/anti-ai-slop
+    status: candidate
+    _meta:
+      stars: 90
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-28T14:35:22.974432'
+  - id: candidate_sixtysevenlf_dsh-blender-plugin
+    title: dsh-blender-plugin
+    summary: 'DSH x Blender direct realtime plugin v1.0 — let an AI model drive Blender
+      over a direct TCP channel: viewport frames, custom-angle renders, inner-loop search,
+      render profiling, safe decimation, headless offload, one-call GUI launch (15 tools
+      + blender_rt_plan: 28 families / 183 ops). 配套 skill：sixtysevenlf/dsh-skill-blender-modeling'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - 3d-modeling
+    - ai-agent
+    - automation
+    - blender
+    - bpy
+    source: https://github.com/sixtysevenlf/dsh-blender-plugin
+    status: candidate
+    _meta:
+      stars: 87
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-28T14:35:22.974436'
+  - id: candidate_kajeesan_open-health-atlas
+    title: Open-Health-Atlas
+    summary: Explore sleep, training, mood and nutrition together using local records,
+      traceable calculations and optional MCP tools for your preferred AI client.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - data-provenance
+    - data-visualization
+    - flask
+    - health-data
+    - local-first
+    source: https://github.com/kajeesan/Open-Health-Atlas
+    status: candidate
+    _meta:
+      stars: 65
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-28T14:35:22.974439'
+  - id: candidate_aditya-ramabadran_drivingbench_harness_v1
+    title: drivingbench_harness_v1
+    summary: Harness/code for DrivingBench v1, which allows frontier LLMs to control
+      cars via Comma/openpilot + MCP tools.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - cars
+    - comma
+    - llm
+    source: https://github.com/aditya-ramabadran/drivingbench_harness_v1
+    status: candidate
+    _meta:
+      stars: 44
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-28T14:35:22.974443'
+  - id: candidate_llopresto87_cypress
+    title: Cypress
+    summary: CYPRESS (Contextual Yield Protocol for Routed Expert Seed Systems) — a
+      project- and vendor-agnostic multi-agent seed for AI coding tools. Drop it into
+      any repo to give agents a large number of  per-role expert team, named protocols,
+      a progressive-discovery knowledge graph, and spec- and test-driven discipline
+      by default.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-framework
+    - agent-orchestration
+    - agent-skills
+    - agentic-ai
+    - agentic-workflow
+    source: https://github.com/llopresto87/Cypress
+    status: candidate
+    _meta:
+      stars: 43
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-09-28T14:35:22.974446'
