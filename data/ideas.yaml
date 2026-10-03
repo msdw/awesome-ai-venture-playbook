@@ -3391,3 +3391,30 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_heaven999b_hello-agent-system
+    title: hello-agent-system
+    summary: '👋 Hello Agent System — learn enterprise AI agent system design by building
+      every production layer from scratch. 17 bilingual lessons (EN/中文) with tested
+      exercises: tools, architectures, reliability, security, evals, distributed execution,
+      cost, RAG, release ops. 企业级 Agent 系统设计训练营'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent
+    - ai-agents
+    - bilingual
+    - chinese
+    - course
+    source: https://github.com/heaven999b/hello-agent-system
+    status: candidate
+    _meta:
+      stars: 43
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-03T12:14:52.568723'
