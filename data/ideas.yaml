@@ -3391,3 +3391,270 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_255308153_ctxguard
+    title: CtxGuard
+    summary: 面向 AI Agent 的高并发、低延迟上下文治理与 Prompt Cache 守护网关 (Tree-sitter AST / Tool Delta
+      / 50%~80% Token 削减)
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agent
+    - claude-code
+    - context-compression
+    - cursor
+    - fastapi
+    source: https://github.com/255308153/CtxGuard
+    status: candidate
+    _meta:
+      stars: 190
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-05T15:19:46.717795'
+  - id: candidate_brandynfisher_toolreplay
+    title: ToolReplay
+    summary: 'Audit AI agent tool-call transcripts: hash-chain sealing, deterministic
+      replay, and scope overreach checks. Dependency-free Python CLI.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agents
+    - audit
+    - cli
+    - determinism
+    - hash-chain
+    source: https://github.com/brandynfisher/ToolReplay
+    status: candidate
+    _meta:
+      stars: 182
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-05T15:19:46.717811'
+  - id: candidate_sixtysevenlf_dsh-blender-plugin
+    title: dsh-blender-plugin
+    summary: 'DSH x Blender direct realtime plugin v1.0 — let an AI model drive Blender
+      over a direct TCP channel: viewport frames, custom-angle renders, inner-loop search,
+      render profiling, safe decimation, headless offload, one-call GUI launch (15 tools
+      + blender_rt_plan: 28 families / 183 ops). 配套 skill：sixtysevenlf/dsh-skill-blender-modeling'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - 3d-modeling
+    - ai-agent
+    - automation
+    - blender
+    - bpy
+    source: https://github.com/sixtysevenlf/dsh-blender-plugin
+    status: candidate
+    _meta:
+      stars: 169
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-05T15:19:46.717814'
+  - id: candidate_graygnatconsole_mcp-audit-tool
+    title: mcp-audit-tool
+    summary: 🛡️ Security audit CLI for Model Context Protocol (MCP) servers — scan AI
+      agent configs for tool poisoning, rug pulls, hardcoded secrets, command injection
+      & supply-chain risks. Pure Python, SARIF + CI ready.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-security
+    - agentic-ai
+    - ai-security
+    - cursor
+    - llm-guardrails
+    source: https://github.com/graygnatconsole/mcp-audit-tool
+    status: candidate
+    _meta:
+      stars: 101
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-05T15:19:46.717816'
+  - id: candidate_misbahsy_anti-ai-slop
+    title: anti-ai-slop
+    summary: An agent skill with multiple gates to check and to remove any AI slop.
+      Use it with codex/claude code or any of your favorite AI tools.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/misbahsy/anti-ai-slop
+    status: candidate
+    _meta:
+      stars: 95
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-05T15:19:46.717820'
+  - id: candidate_rankspotai_awesome-geo-tools
+    title: awesome-geo-tools
+    summary: A curated list of GEO and AI visibility tools, compared on which AI engines
+      they track, how often they refresh, what they cost, and whether you can get your
+      data out.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - aeo
+    - ai-search
+    - ai-seo
+    - ai-visibility
+    - answer-engine-optimization
+    source: https://github.com/RankSpotAI/awesome-geo-tools
+    status: candidate
+    _meta:
+      stars: 79
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-05T15:19:46.717823'
+  - id: candidate_heaven999b_hello-agent-system
+    title: hello-agent-system
+    summary: '👋 Hello Agent System — learn enterprise AI agent system design by building
+      every production layer from scratch. 17 bilingual lessons (EN/中文) with tested
+      exercises: tools, architectures, reliability, security, evals, distributed execution,
+      cost, RAG, release ops. 企业级 Agent 系统设计训练营'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent
+    - ai-agents
+    - bilingual
+    - chinese
+    - course
+    source: https://github.com/heaven999b/hello-agent-system
+    status: candidate
+    _meta:
+      stars: 68
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-05T15:19:46.717825'
+  - id: candidate_kajeesan_open-health-atlas
+    title: Open-Health-Atlas
+    summary: Explore sleep, training, mood and nutrition together using local records,
+      traceable calculations and optional MCP tools for your preferred AI client.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - data-provenance
+    - data-visualization
+    - flask
+    - health-data
+    - local-first
+    source: https://github.com/kajeesan/Open-Health-Atlas
+    status: candidate
+    _meta:
+      stars: 66
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-05T15:19:46.717831'
+  - id: candidate_aditya-ramabadran_drivingbench_harness_v1
+    title: drivingbench_harness_v1
+    summary: Harness/code for DrivingBench v1, which allows frontier LLMs to control
+      cars via Comma/openpilot + MCP tools.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - cars
+    - comma
+    - llm
+    source: https://github.com/aditya-ramabadran/drivingbench_harness_v1
+    status: candidate
+    _meta:
+      stars: 53
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-05T15:19:46.717834'
+  - id: candidate_nexscope-ai_ecommerce-ai-tools
+    title: ecommerce-ai-tools
+    summary: Open ecommerce AI tools and guides for Amazon review analysis, listing
+      optimization, keyword research, SEO audits, AI image/video generation, and APIs
+      for AI agents.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agents
+    - ai-image-generator
+    - ai-video-generator
+    - amazon-keyword-research
+    - amazon-listing-optimization
+    source: https://github.com/nexscope-ai/ecommerce-ai-tools
+    status: candidate
+    _meta:
+      stars: 51
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-05T15:19:46.717837'
+  - id: candidate_m2dumpling_pawbot
+    title: pawbot
+    summary: A self-hosted AI agent runtime with WebUI, MCP tools, context governance,
+      and Record & Replay for deterministic execution & evaluation.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-tools
+    - ai-agents
+    - llm
+    - mcp
+    - python
+    source: https://github.com/m2dumpling/pawbot
+    status: candidate
+    _meta:
+      stars: 31
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-05T15:19:46.717839'

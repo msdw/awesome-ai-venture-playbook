@@ -1,15 +1,15 @@
-# Social posts — 2026-08-22
+# Social posts — 2026-10-05
 
 Copy-paste ready. Review before publishing.
 
 ## LinkedIn
 
 ```
-This week in Awesome AI Venture Playbook (2026-08-22):
+This week in Awesome AI Venture Playbook (2026-10-05):
 
-→ Shared repository context ledger for AI coding tools — Keeps one durable record per repository — architecture notes, feature specs, open decisions and handoff summaries — that any AI coding tool reads and updates, so context survives switching tools or sessions.
-→ Tool-schema compression proxy for agent stacks — Sits between an agent and its tool servers and serves a compact index of available tools, expanding a full schema only when the agent actually selects one, so tool discovery stops consuming most of the context window.
-→ Reversible execution layer for AI agents — A runner that snapshots every file and shell action an agent takes so any run can be rolled back in one command, making it safe to let agents act on a real working tree instead of a sandbox copy.
+→ CtxGuard — 面向 AI Agent 的高并发、低延迟上下文治理与 Prompt Cache 守护网关 (Tree-sitter AST / Tool Delta / 50%~80% Token 削减)
+→ ToolReplay — Audit AI agent tool-call transcripts: hash-chain sealing, deterministic replay, and scope overreach checks. Dependency-free Python CLI.
+→ dsh-blender-plugin — DSH x Blender direct realtime plugin v1.0 — let an AI model drive Blender over a direct TCP channel: viewport frames, custom-angle renders, inner-loop search, render profiling, safe decimation, headless offload, one-call GUI launch (15 tools + blender_rt_plan: 28 families / 183 ops). 配套 skill：sixtysevenlf/dsh-skill-blender-modeling
 
 Every entry is scored, structured, and hype-free.
 Full list: https://github.com/msdw/awesome-ai-venture-playbook
@@ -21,9 +21,9 @@ The whole series: https://msdw.github.io/awesome-ai-hub/
 ```
 This week's top AI ideas, scored and structured — no hype:
 
-→ Shared repository context ledger for AI coding tools
-→ Tool-schema compression proxy for agent stacks
-→ Reversible execution layer for AI agents
+→ CtxGuard
+→ ToolReplay
+→ dsh-blender-plugin
 
 https://github.com/msdw/awesome-ai-venture-playbook
 ```
