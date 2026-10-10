@@ -3391,3 +3391,31 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_mushigaite_short-video-maker
+    title: short-video-maker
+    summary: 'A free open-source project designed to turn youtube-videos into viral
+      short videos. Highlight detection, subtitles, translation, voiceover, all in one
+      for your content: no pre-clip credits or any watermarks. Designed for creators
+      who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for
+      free.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-video
+    - ai-video-editing
+    - ai-video-generation-api
+    - money-printer
+    - short-video
+    source: https://github.com/mushigaite/short-video-maker
+    status: candidate
+    _meta:
+      stars: 290
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-10T13:17:36.919140'
