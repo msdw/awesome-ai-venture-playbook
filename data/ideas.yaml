@@ -3391,3 +3391,293 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_zhuyansen_new-term-radar
+    title: new-term-radar
+    summary: 'Daily radar for new AI terms: names of new models, products and repos,
+      caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - aisa
+    - github-actions
+    - keyword-research
+    - seo
+    source: https://github.com/zhuyansen/new-term-radar
+    status: candidate
+    _meta:
+      stars: 401
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-12T16:11:29.131353'
+  - id: candidate_mushigaite_short-video-maker
+    title: short-video-maker
+    summary: 'A free open-source project designed to turn youtube-videos into viral
+      short videos. Highlight detection, subtitles, translation, voiceover, all in one
+      for your content: no pre-clip credits or any watermarks. Designed for creators
+      who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for
+      free.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-video
+    - ai-video-editing
+    - ai-video-generation-api
+    - money-printer
+    - short-video
+    source: https://github.com/mushigaite/short-video-maker
+    status: candidate
+    _meta:
+      stars: 292
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-12T16:11:29.131371'
+  - id: candidate_graygnatconsole_mcp-audit-tool
+    title: mcp-audit-tool
+    summary: 🛡️ Security audit CLI for Model Context Protocol (MCP) servers — scan AI
+      agent configs for tool poisoning, rug pulls, hardcoded secrets, command injection
+      & supply-chain risks. Pure Python, SARIF + CI ready.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-security
+    - agentic-ai
+    - ai-security
+    - cursor
+    - llm-guardrails
+    source: https://github.com/graygnatconsole/mcp-audit-tool
+    status: candidate
+    _meta:
+      stars: 242
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-12T16:11:29.131375'
+  - id: candidate_sixtysevenlf_dsh-blender-plugin
+    title: dsh-blender-plugin
+    summary: 'DSH x Blender direct realtime plugin v1.0 — let an AI model drive Blender
+      over a direct TCP channel: viewport frames, custom-angle renders, inner-loop search,
+      render profiling, safe decimation, headless offload, one-call GUI launch (15 tools
+      + blender_rt_plan: 28 families / 183 ops). 配套 skill：sixtysevenlf/dsh-skill-blender-modeling'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - 3d-modeling
+    - ai-agent
+    - automation
+    - blender
+    - bpy
+    source: https://github.com/sixtysevenlf/dsh-blender-plugin
+    status: candidate
+    _meta:
+      stars: 218
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-12T16:11:29.131379'
+  - id: candidate_255308153_ctxguard
+    title: CtxGuard
+    summary: 面向 AI Agent 的高并发、低延迟上下文治理与 Prompt Cache 守护网关 (Tree-sitter AST / Tool Delta
+      / 50%~80% Token 削减)
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agent
+    - claude-code
+    - context-compression
+    - cursor
+    - fastapi
+    source: https://github.com/255308153/CtxGuard
+    status: candidate
+    _meta:
+      stars: 203
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-12T16:11:29.131382'
+  - id: candidate_brandynfisher_toolreplay
+    title: ToolReplay
+    summary: 'Audit AI agent tool-call transcripts: hash-chain sealing, deterministic
+      replay, and scope overreach checks. Dependency-free Python CLI.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agents
+    - audit
+    - cli
+    - determinism
+    - hash-chain
+    source: https://github.com/brandynfisher/ToolReplay
+    status: candidate
+    _meta:
+      stars: 184
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-12T16:11:29.131386'
+  - id: candidate_omoolab_anyimage
+    title: AnyImage
+    summary: Fast image-guided structure building tools for Blender
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - blender
+    source: https://github.com/OmooLab/AnyImage
+    status: candidate
+    _meta:
+      stars: 177
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-12T16:11:29.131390'
+  - id: candidate_heaven999b_hello-agent-system
+    title: hello-agent-system
+    summary: '👋 Hello Agent System — learn enterprise AI agent system design by building
+      every production layer from scratch. 17 bilingual lessons (EN/中文) with tested
+      exercises: tools, architectures, reliability, security, evals, distributed execution,
+      cost, RAG, release ops. 企业级 Agent 系统设计训练营'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent
+    - ai-agents
+    - bilingual
+    - chinese
+    - course
+    source: https://github.com/heaven999b/hello-agent-system
+    status: candidate
+    _meta:
+      stars: 154
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-12T16:11:29.131398'
+  - id: candidate_misbahsy_anti-ai-slop
+    title: anti-ai-slop
+    summary: An agent skill with multiple gates to check and to remove any AI slop.
+      Use it with codex/claude code or any of your favorite AI tools.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/misbahsy/anti-ai-slop
+    status: candidate
+    _meta:
+      stars: 95
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-12T16:11:29.131402'
+  - id: candidate_nexscope-ai_ecommerce-ai-tools
+    title: ecommerce-ai-tools
+    summary: Open ecommerce AI tools and guides for Amazon review analysis, listing
+      optimization, keyword research, SEO audits, AI image/video generation, and APIs
+      for AI agents.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agents
+    - ai-image-generator
+    - ai-video-generator
+    - amazon-keyword-research
+    - amazon-listing-optimization
+    source: https://github.com/nexscope-ai/ecommerce-ai-tools
+    status: candidate
+    _meta:
+      stars: 89
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-12T16:11:29.131406'
+  - id: candidate_yxq953_muselite
+    title: MuseLite
+    summary: MuseLite is an open-source AI workspace combining chat, Agent tools, browser
+      automation, and scheduled tasks for users who enjoy Muse and Dots.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agent
+    - computer-use
+    - dots
+    - gui-agent
+    - llm
+    source: https://github.com/yxq953/MuseLite
+    status: candidate
+    _meta:
+      stars: 78
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-12T16:11:29.131409'
+  - id: candidate_kajeesan_open-health-atlas
+    title: Open-Health-Atlas
+    summary: Explore sleep, training, mood and nutrition together using local records,
+      traceable calculations and optional MCP tools for your preferred AI client.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - data-provenance
+    - data-visualization
+    - flask
+    - health-data
+    - local-first
+    source: https://github.com/kajeesan/Open-Health-Atlas
+    status: candidate
+    _meta:
+      stars: 66
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-12T16:11:29.131412'
