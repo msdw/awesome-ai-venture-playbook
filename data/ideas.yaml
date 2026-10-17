@@ -3391,3 +3391,199 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_zhuyansen_new-term-radar
+    title: new-term-radar
+    summary: 'Daily radar for new AI terms: names of new models, products and repos,
+      caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-skills
+    - ai
+    - aisa
+    - claude-code
+    - claude-skills
+    source: https://github.com/zhuyansen/new-term-radar
+    status: candidate
+    _meta:
+      stars: 1073
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-17T11:22:54.800215'
+  - id: candidate_anujasid_blender-ai-mcp-addon
+    title: blender-ai-mcp-addon
+    summary: 'AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent
+      workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI
+      addon, copilot for 3D, bpy Python scripting, MCP integration.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - 3d-modeling
+    - ai-assistant
+    - blender
+    - blender-addon
+    - blender-ai
+    source: https://github.com/anujasid/blender-ai-mcp-addon
+    status: candidate
+    _meta:
+      stars: 385
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-17T11:22:54.800234'
+  - id: candidate_heqiangdiao-wq_ai-cross-border-ecommerce-agent-toolkit
+    title: AI-Cross-Border-Ecommerce-Agent-Toolkit
+    summary: AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agents
+    - cross-border-ecommerce
+    - ecommerce
+    - llm
+    - mercado-livre
+    source: https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit
+    status: candidate
+    _meta:
+      stars: 332
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-17T11:22:54.800241'
+  - id: candidate_sepehr071_awesome-iran-mcp
+    title: awesome-iran-mcp
+    summary: '19 open-source MCP servers (308 tools) that give AI agents the Iranian
+      web: Digikala, Snappfood, Jabama, MrBilit, Paziresh24, Taaghche and more. Prices
+      in Toman.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-skills
+    - ai-agents
+    - awesome
+    - claude
+    - claude-code-plugin
+    source: https://github.com/sepehr071/awesome-iran-mcp
+    status: candidate
+    _meta:
+      stars: 118
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-17T11:22:54.800247'
+  - id: candidate_christos-antono_npctalk
+    title: NPCTalk
+    summary: 'Make any NPC in any game talk back with Fish Audio: skills, a self-hosted
+      voice server and tools for AI coding agents, with a full GTA V example.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-skills
+    - claude-code
+    - fish-audio
+    - game-modding
+    - gta5
+    source: https://github.com/christos-antono/NPCTalk
+    status: candidate
+    _meta:
+      stars: 105
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-17T11:22:54.800253'
+  - id: candidate_anisayari_sparky
+    title: sparky
+    summary: '🔒 Your private AI assistant, 100% local on Windows: chat, vision, documents
+      (RAG), web search, images, videos with sound, voice, code projects, MCP tools
+      — one-line install, models picked for your PC.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - chatgpt-alternative
+    - comfyui
+    - image-generation
+    - llama-cpp
+    - llm
+    source: https://github.com/anisayari/sparky
+    status: candidate
+    _meta:
+      stars: 42
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-17T11:22:54.800259'
+  - id: candidate_submitgame_awesome-ai-game-dev-tools
+    title: awesome-ai-game-dev-tools
+    summary: Open-source AI tools for making games, and for decompiling, remixing and
+      mashing up games you own. 100+ stars, active in the last year, refreshed daily.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-game
+    - ai-game-development
+    - awesome
+    - awesome-list
+    source: https://github.com/SubmitGame/awesome-ai-game-dev-tools
+    status: candidate
+    _meta:
+      stars: 37
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-17T11:22:54.800270'
+  - id: candidate_alexgaoth_awesome-reverse-engineered
+    title: awesome-reverse-engineered
+    summary: Don't reverse engineer it twice. 12,000+ open-source tools built by reverse
+      engineering closed apps, APIs, devices, protocols, file formats, games and AI
+      tools. Search site + agent skill, refreshed nightly.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-skills
+    - ai-agents
+    - awesome
+    - awesome-list
+    - claude-code
+    source: https://github.com/alexgaoth/awesome-reverse-engineered
+    status: candidate
+    _meta:
+      stars: 37
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-17T11:22:54.800280'
