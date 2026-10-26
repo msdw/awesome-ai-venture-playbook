@@ -1,15 +1,15 @@
-# Social posts — 2026-08-22
+# Social posts — 2026-10-26
 
 Copy-paste ready. Review before publishing.
 
 ## LinkedIn
 
 ```
-This week in Awesome AI Venture Playbook (2026-08-22):
+This week in Awesome AI Venture Playbook (2026-10-26):
 
-→ Shared repository context ledger for AI coding tools — Keeps one durable record per repository — architecture notes, feature specs, open decisions and handoff summaries — that any AI coding tool reads and updates, so context survives switching tools or sessions.
-→ Tool-schema compression proxy for agent stacks — Sits between an agent and its tool servers and serves a compact index of available tools, expanding a full schema only when the agent actually selects one, so tool discovery stops consuming most of the context window.
-→ Reversible execution layer for AI agents — A runner that snapshots every file and shell action an agent takes so any run can be rolled back in one command, making it safe to let agents act on a real working tree instead of a sandbox copy.
+→ new-term-radar — Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.
+→ awesome-reverse-engineered — Don't reverse engineer it twice. 16,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file formats, games and AI tools. Search site + agent skill + MCP server, refreshed nightly.
+→ text-humanizer — A CLI tool for translation algorithms based text humanization in order to bypass such AI-detectors as GPTZero, Turnitin and etc.
 
 Every entry is scored, structured, and hype-free.
 Full list: https://github.com/msdw/awesome-ai-venture-playbook
@@ -21,9 +21,9 @@ The whole series: https://msdw.github.io/awesome-ai-hub/
 ```
 This week's top AI ideas, scored and structured — no hype:
 
-→ Shared repository context ledger for AI coding tools
-→ Tool-schema compression proxy for agent stacks
-→ Reversible execution layer for AI agents
+→ new-term-radar
+→ awesome-reverse-engineered
+→ text-humanizer
 
 https://github.com/msdw/awesome-ai-venture-playbook
 ```

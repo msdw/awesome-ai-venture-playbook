@@ -3391,3 +3391,292 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_zhuyansen_new-term-radar
+    title: new-term-radar
+    summary: 'Daily radar for new AI terms: names of new models, products and repos,
+      caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-skills
+    - ai
+    - aisa
+    - claude-code
+    - claude-skills
+    source: https://github.com/zhuyansen/new-term-radar
+    status: candidate
+    _meta:
+      stars: 1806
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-26T13:37:58.004440'
+  - id: candidate_alexgaoth_awesome-reverse-engineered
+    title: awesome-reverse-engineered
+    summary: Don't reverse engineer it twice. 16,000+ open-source tools built by reverse
+      engineering closed apps, APIs, devices, protocols, file formats, games and AI
+      tools. Search site + agent skill + MCP server, refreshed nightly.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-skills
+    - ai-agents
+    - awesome
+    - awesome-list
+    - claude-code
+    source: https://github.com/alexgaoth/awesome-reverse-engineered
+    status: candidate
+    _meta:
+      stars: 748
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-26T13:37:58.004458'
+  - id: candidate_kurelas_text-humanizer
+    title: text-humanizer
+    summary: A CLI tool for translation algorithms based text humanization in order
+      to bypass such AI-detectors as GPTZero, Turnitin and etc.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-text-detection
+    - ai-text-detector
+    - ai-text-humanizer
+    - gptzero
+    - gptzero-bypass
+    source: https://github.com/kurelas/text-humanizer
+    status: candidate
+    _meta:
+      stars: 724
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-26T13:37:58.004462'
+  - id: candidate_heqiangdiao-wq_ai-cross-border-ecommerce-agent-toolkit
+    title: AI-Cross-Border-Ecommerce-Agent-Toolkit
+    summary: AI 跨境电商运营智能体工具箱 · 把运营 SOP 拆成 7 个可复用的 AI Agent 工作流，含 Prompt、模板与真实案例
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agents
+    - cross-border-ecommerce
+    - ecommerce
+    - llm
+    - mercado-livre
+    source: https://github.com/heqiangdiao-wq/AI-Cross-Border-Ecommerce-Agent-Toolkit
+    status: candidate
+    _meta:
+      stars: 691
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-26T13:37:58.004466'
+  - id: candidate_heaven999b_hello-agent-system
+    title: hello-agent-system
+    summary: '👋 Hello Agent System — learn enterprise AI agent system design by building
+      every production layer from scratch. 17 bilingual lessons (EN/中文) with tested
+      exercises: tools, architectures, reliability, security, evals, distributed execution,
+      cost, RAG, release ops. 企业级 Agent 系统设计训练营'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent
+    - ai-agents
+    - bilingual
+    - chinese
+    - course
+    source: https://github.com/heaven999b/hello-agent-system
+    status: candidate
+    _meta:
+      stars: 305
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-26T13:37:58.004470'
+  - id: candidate_christos-antono_npctalk
+    title: NPCTalk
+    summary: 'Make any NPC in any game talk back with Fish Audio: skills, a self-hosted
+      voice server and tools for AI coding agents, with a full GTA V example.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-skills
+    - claude-code
+    - fish-audio
+    - game-modding
+    - gta5
+    source: https://github.com/christos-antono/NPCTalk
+    status: candidate
+    _meta:
+      stars: 210
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-26T13:37:58.004474'
+  - id: candidate_sepehr071_iran-mcp
+    title: iran-mcp
+    summary: '39 MCP servers (488 tools) that give AI agents the Iranian web: Digikala,
+      Torob, Divar, Snappfood, Jabama, MrBilit, Paziresh24, Taaghche, laws, tax, crypto,
+      stocks, news and more. Prices in Toman.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent-skills
+    - ai-agents
+    - claude
+    - claude-code-plugin
+    - cursor
+    source: https://github.com/sepehr071/iran-mcp
+    status: candidate
+    _meta:
+      stars: 156
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-26T13:37:58.004477'
+  - id: candidate_yxq953_muselite
+    title: MuseLite
+    summary: MuseLite is an open-source AI workspace combining chat, Agent tools, browser
+      automation, and scheduled tasks for users who enjoy Muse and Dots.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agent
+    - computer-use
+    - dots
+    - gui-agent
+    - llm
+    source: https://github.com/yxq953/MuseLite
+    status: candidate
+    _meta:
+      stars: 92
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-26T13:37:58.004485'
+  - id: candidate_swax_dub-anything
+    title: dub-anything
+    summary: A tool that allows AI to direct the dubbing process, uses the original
+      actor voices and does the audio generation on your local PC
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-dubbing
+    - cuda
+    - dubbing
+    - indextts
+    - local-ai
+    source: https://github.com/swax/dub-anything
+    status: candidate
+    _meta:
+      stars: 80
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-26T13:37:58.004489'
+  - id: candidate_anisayari_sparky
+    title: sparky
+    summary: '🔒 Your private AI assistant, 100% local on Windows: chat, vision, documents
+      (RAG), web search, images, videos with sound, voice, code projects, MCP tools
+      — one-line install, models picked for your PC.'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - chatgpt-alternative
+    - comfyui
+    - image-generation
+    - llama-cpp
+    - llm
+    source: https://github.com/anisayari/sparky
+    status: candidate
+    _meta:
+      stars: 61
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-26T13:37:58.004492'
+  - id: candidate_submitgame_awesome-ai-game-dev-tools
+    title: awesome-ai-game-dev-tools
+    summary: Open-source AI tools for making games, and for decompiling, remixing and
+      mashing up games you own. 100+ stars, active in the last year, refreshed daily.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-game
+    - ai-game-development
+    - awesome
+    - awesome-list
+    source: https://github.com/SubmitGame/awesome-ai-game-dev-tools
+    status: candidate
+    _meta:
+      stars: 59
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-26T13:37:58.004496'
+  - id: candidate_f24sales_litellm-free
+    title: litellm-free
+    summary: F24 SALES free AI model directory, verified LiteLLM routes, import tools
+      and agent-assisted model research.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/f24sales/litellm-free
+    status: candidate
+    _meta:
+      stars: 47
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-26T13:37:58.004499'
