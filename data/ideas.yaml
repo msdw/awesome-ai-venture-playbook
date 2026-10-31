@@ -3391,3 +3391,73 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_wquguru_shisei
+    title: shisei
+    summary: 💃 Free CC0 mannequin pose reference library for AI image tools (Nano Banana,
+      ChatGPT, ComfyUI, Midjourney) — 250+ poses × 5 angles in line art, names in ja/zh/en/ko
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-art
+    - ai-image-generation
+    - art-reference
+    - cc0
+    - comfyui
+    source: https://github.com/wquguru/shisei
+    status: candidate
+    _meta:
+      stars: 178
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-31T13:19:03.082077'
+  - id: candidate_artbyo3_devil-designer
+    title: DEVIL-DESIGNER
+    summary: For everyone reading this, yeah — DEVIL-DESIGNER is built with AI tools.
+      If you don't want to be involved with AI, maybe don't use it.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/Artbyo3/DEVIL-DESIGNER
+    status: candidate
+    _meta:
+      stars: 32
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-31T13:19:03.082095'
+  - id: candidate_larchanka_skills
+    title: skills
+    summary: This repository is a collection of independent skills and tools for software
+      development and automation. Each skill is a self-contained project with its own
+      purpose, implementation, and documentation.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agent
+    - agent-skill
+    - agent-skills
+    - agentic-ai
+    - agents
+    source: https://github.com/larchanka/skills
+    status: candidate
+    _meta:
+      stars: 31
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-10-31T13:19:03.082099'
