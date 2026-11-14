@@ -3391,3 +3391,52 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_therizwan_community-claude-code
+    title: community-claude-code
+    summary: Local proxy that connects Claude Code and other coding agents to any OpenAI-compatible
+      AI provider. with streaming, tool use, fallbacks, and rate limiting.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-proxy
+    - claude-code
+    - coding-agent
+    - llm
+    - openai-compatible
+    source: https://github.com/theRizwan/community-claude-code
+    status: candidate
+    _meta:
+      stars: 44
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-14T13:57:01.623663'
+  - id: candidate_james-joobs_awesome-nvidia-physical-ai
+    title: awesome-nvidia-physical-ai
+    summary: An independent bilingual guide to NVIDIA Physical AI. Find tools, models,
+      and workflows for robotics, simulation, and autonomous driving.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - autonomous-driving
+    - awesome-list
+    - digital-twin
+    - isaac-lab
+    - isaac-sim
+    source: https://github.com/james-joobs/awesome-nvidia-physical-ai
+    status: candidate
+    _meta:
+      stars: 42
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-14T13:57:01.623682'
