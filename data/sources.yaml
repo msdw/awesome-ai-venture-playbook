@@ -131,3 +131,72 @@ sources:
     status: active
     added_at: "2026-08-22"
     notes: Reviewed manually — shared with the Idea Engine sources list
+
+  github_composiohq_awesome_claude_skills:
+    type: github
+    description: A curated list of awesome Claude Skills, resources, and tools for customizing
+      Claude AI workflows
+    url: https://github.com/ComposioHQ/awesome-claude-skills
+    found_by_query: awesome saas resources list
+    frequency: weekly
+    status: candidate
+    stars: 79549
+    added_at: '2026-11-15'
+  github_edostra_marketing_for_founders:
+    type: github
+    description: Practical marketing resources to get the first 10 / 100 / 1000 users
+      for your SaaS / App / Startup
+    url: https://github.com/EdoStra/Marketing-for-Founders
+    found_by_query: awesome saas resources list
+    frequency: weekly
+    status: candidate
+    stars: 7219
+    added_at: '2026-11-15'
+  github_ishanvyas22_awesome_open_source_systems:
+    type: github
+    description: ':sunglasses: A curated list of awesome Free Open Source Softwares(FOSS).'
+    url: https://github.com/ishanvyas22/awesome-open-source-systems
+    found_by_query: awesome saas resources list
+    frequency: weekly
+    status: candidate
+    stars: 686
+    added_at: '2026-11-15'
+  github_layr_labs_awesome_avs:
+    type: github
+    description: A curated list of awesome projects and resources related to AVS development
+      and EigenLayer.
+    url: https://github.com/Layr-Labs/awesome-avs
+    found_by_query: awesome saas resources list
+    frequency: weekly
+    status: candidate
+    stars: 178
+    added_at: '2026-11-15'
+  hn_50339913:
+    type: hn
+    description: 'Launch HN: Momentic (YC W24) – Agents that catch bugs by using your
+      app'
+    url: https://momentic.ai/
+    found_by_query: best startup resources AI
+    frequency: weekly
+    status: candidate
+    points: 167
+    added_at: '2026-11-15'
+  hn_50443812:
+    type: hn
+    description: 'Show HN: Get your coding agent off ~2019 JavaScript, onto modern web
+      primitives'
+    url: https://github.com/GoogleChrome/modern-web-guidance
+    found_by_query: startup tools curated list
+    frequency: weekly
+    status: candidate
+    points: 446
+    added_at: '2026-11-15'
+  hn_50427934:
+    type: hn
+    description: 'Show HN: DBDelve – Open-Source DB Client Made with Rust and GPUI'
+    url: https://news.ycombinator.com/item?id=50427934
+    found_by_query: startup tools curated list
+    frequency: weekly
+    status: candidate
+    points: 124
+    added_at: '2026-11-15'
