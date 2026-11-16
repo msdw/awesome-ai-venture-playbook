@@ -3391,3 +3391,293 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_n1neman_sapper-v2
+    title: sapper-v2
+    summary: 'The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team
+      champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design.
+      Grow your own fruit on the Nüwa Foundation (Create/Language/History).'
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - agentic-workflows
+    - ai-agents
+    - ai-security
+    - autonomous-agents
+    - claude-code
+    source: https://github.com/N1nEmAn/sapper-v2
+    status: candidate
+    _meta:
+      stars: 2133
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-16T16:30:42.898733'
+  - id: candidate_wquguru_shisei
+    title: shisei
+    summary: 💃 Free CC0 mannequin pose reference library for AI image tools (Nano Banana,
+      ChatGPT, ComfyUI, Midjourney) — 250+ poses × 5 angles in line art, names in ja/zh/en/ko
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-art
+    - ai-image-generation
+    - art-reference
+    - cc0
+    - comfyui
+    source: https://github.com/wquguru/shisei
+    status: candidate
+    _meta:
+      stars: 534
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-16T16:30:42.898756'
+  - id: candidate_abdul-rehman7826_ai-manus
+    title: ai-manus
+    summary: AI Manus is a general-purpose AI Agent system that supports running various
+      tools and operations in a sandbox environment.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-sdk
+    - anthropic
+    - chatbot
+    source: https://github.com/Abdul-Rehman7826/ai-manus
+    status: candidate
+    _meta:
+      stars: 156
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-16T16:30:42.898759'
+  - id: candidate_quyetcao_ai-manus
+    title: ai-manus
+    summary: AI Manus is a general-purpose AI Agent system that supports running various
+      tools and operations in a sandbox environment.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-sdk
+    - anthropic
+    - chatbot
+    source: https://github.com/quyetcao/ai-manus
+    status: candidate
+    _meta:
+      stars: 154
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-16T16:30:42.898761'
+  - id: candidate_gigachad-byte_ai-manus
+    title: ai-manus
+    summary: AI Manus is a general-purpose AI Agent system that supports running various
+      tools and operations in a sandbox environment.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-sdk
+    - anthropic
+    - chatbot
+    source: https://github.com/Gigachad-byte/ai-manus
+    status: candidate
+    _meta:
+      stars: 152
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-16T16:30:42.898763'
+  - id: candidate_kolg123_ai-manus
+    title: ai-manus
+    summary: AI Manus is a general-purpose AI Agent system that supports running various
+      tools and operations in a sandbox environment.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-sdk
+    - anthropic
+    - chatbot
+    source: https://github.com/Kolg123/ai-manus
+    status: candidate
+    _meta:
+      stars: 152
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-16T16:30:42.898766'
+  - id: candidate_monirchemrubd_ai-manus
+    title: ai-manus
+    summary: AI Manus is a general-purpose AI Agent system that supports running various
+      tools and operations in a sandbox environment.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-sdk
+    - anthropic
+    - chatbot
+    source: https://github.com/monirchemrubd/ai-manus
+    status: candidate
+    _meta:
+      stars: 152
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-16T16:30:42.898769'
+  - id: candidate_fedibenameur11_ai-manus
+    title: ai-manus
+    summary: AI Manus is a general-purpose AI Agent system that supports running various
+      tools and operations in a sandbox environment.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-sdk
+    - anthropic
+    - chatbot
+    source: https://github.com/fedibenameur11/ai-manus
+    status: candidate
+    _meta:
+      stars: 152
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-16T16:30:42.898775'
+  - id: candidate_willsmanuel123-creator_ai-manus
+    title: ai-manus
+    summary: AI Manus is a general-purpose AI Agent system that supports running various
+      tools and operations in a sandbox environment.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-sdk
+    - anthropic
+    - chatbot
+    source: https://github.com/willsmanuel123-creator/ai-manus
+    status: candidate
+    _meta:
+      stars: 152
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-16T16:30:42.898778'
+  - id: candidate_thecoderrrer_ai-manus
+    title: ai-manus
+    summary: AI Manus is a general-purpose AI Agent system that supports running various
+      tools and operations in a sandbox environment.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-sdk
+    - anthropic
+    - chatbot
+    source: https://github.com/thecoderrrer/ai-manus
+    status: candidate
+    _meta:
+      stars: 152
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-16T16:30:42.898781'
+  - id: candidate_teolimaof_ai-manus
+    title: ai-manus
+    summary: AI Manus is a general-purpose AI Agent system that supports running various
+      tools and operations in a sandbox environment.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-sdk
+    - anthropic
+    - chatbot
+    source: https://github.com/Teolimaof/ai-manus
+    status: candidate
+    _meta:
+      stars: 152
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-16T16:30:42.898783'
+  - id: candidate_johnstiles_ai-manus
+    title: ai-manus
+    summary: AI Manus is a general-purpose AI Agent system that supports running various
+      tools and operations in a sandbox environment.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai
+    - ai-agents
+    - ai-sdk
+    - anthropic
+    - chatbot
+    source: https://github.com/johnstiles/ai-manus
+    status: candidate
+    _meta:
+      stars: 152
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-16T16:30:42.898785'
