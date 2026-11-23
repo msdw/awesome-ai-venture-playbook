@@ -1,15 +1,15 @@
-# Social posts — 2026-08-22
+# Social posts — 2026-11-23
 
 Copy-paste ready. Review before publishing.
 
 ## LinkedIn
 
 ```
-This week in Awesome AI Venture Playbook (2026-08-22):
+This week in Awesome AI Venture Playbook (2026-11-23):
 
-→ Shared repository context ledger for AI coding tools — Keeps one durable record per repository — architecture notes, feature specs, open decisions and handoff summaries — that any AI coding tool reads and updates, so context survives switching tools or sessions.
-→ Tool-schema compression proxy for agent stacks — Sits between an agent and its tool servers and serves a compact index of available tools, expanding a full schema only when the agent actually selects one, so tool discovery stops consuming most of the context window.
-→ Reversible execution layer for AI agents — A runner that snapshots every file and shell action an agent takes so any run can be rolled back in one command, making it safe to let agents act on a real working tree instead of a sandbox copy.
+→ sapper-v2 — The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).
+→ shisei — 💃 Free CC0 mannequin pose reference library for AI image tools (Nano Banana, ChatGPT, ComfyUI, Midjourney) — 250+ poses × 5 angles in line art, names in ja/zh/en/ko
+→ ai-manus — AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.
 
 Every entry is scored, structured, and hype-free.
 Full list: https://github.com/msdw/awesome-ai-venture-playbook
@@ -21,9 +21,9 @@ The whole series: https://msdw.github.io/awesome-ai-hub/
 ```
 This week's top AI ideas, scored and structured — no hype:
 
-→ Shared repository context ledger for AI coding tools
-→ Tool-schema compression proxy for agent stacks
-→ Reversible execution layer for AI agents
+→ sapper-v2
+→ shisei
+→ ai-manus
 
 https://github.com/msdw/awesome-ai-venture-playbook
 ```
