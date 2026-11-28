@@ -3391,3 +3391,87 @@ ideas:
       source: github
       discovered_at: '2026-08-22T07:40:00'
       curated: true
+
+  - id: candidate_jbruchon_yt-dlp-enhanced
+    title: yt-dlp-enhanced
+    summary: yt-dlp except run by a psychopath who prefers to make the best possible
+      tool rather than virtue signal about AI and piracy. Despite not taking ourselves
+      seriously, we take the code very seriously. The internet is serious business.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/jbruchon/yt-dlp-enhanced
+    status: candidate
+    _meta:
+      stars: 73
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-28T15:57:50.268606'
+  - id: candidate_dipeshbisen_viral-clipper-by-mrbitblox
+    title: viral-clipper-by-mrbitblox
+    summary: AI powered clipping tool.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/DipeshBisen/viral-clipper-by-mrbitblox
+    status: candidate
+    _meta:
+      stars: 49
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-28T15:57:50.268625'
+  - id: candidate_caglarsu_ai-coders-library
+    title: ai-coders-library
+    summary: Curated AI skills, tools and workflows for AI-assisted developers
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - ai-agents
+    - ai-coding
+    - ai-tools
+    - awesome-list
+    - claude-code
+    source: https://github.com/caglarsu/ai-coders-library
+    status: candidate
+    _meta:
+      stars: 43
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-28T15:57:50.268628'
+  - id: candidate_fermat-r_zhongshu
+    title: zhongshu
+    summary: AI-powered virtual user interviews and product research platform with persona
+      simulation and 12 analysis tools.
+    category: ai_saas
+    target_users:
+    - developer
+    pain_points:
+    - See repository
+    difficulty: medium
+    risk_level: medium
+    tags:
+    - automation
+    source: https://github.com/Fermat-R/zhongshu
+    status: candidate
+    _meta:
+      stars: 36
+      source: github
+      query: ai saas OR llm tool language:python stars:>30
+      discovered_at: '2026-11-28T15:57:50.268630'
